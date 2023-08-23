@@ -336,7 +336,7 @@ header .secondar_menuBar .search_bar svg {
   border-bottom: 1px solid var(--border-clr);
   padding: 2rem;
 }
-.search-megamenu .grid-row .column .product{
+.search-megamenu .grid-row .column .product {
   margin-bottom: 4rem;
 }
 .search-megamenu .grid-row .column:nth-of-type(3) {
@@ -388,7 +388,7 @@ header .secondar_menuBar .search_bar svg {
   font-size: 0.625rem;
   padding: 0.4rem;
 }
-.s-article .r-side span{
+.s-article .r-side span {
   font-weight: 500;
 }
 /* search bar mega menu */
@@ -1617,6 +1617,34 @@ footer .foot-links .phone,
 footer .accordion2 {
   display: none;
 }
+footer .copyright {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.75rem 0;
+  gap: 2rem;
+}
+footer .copyright .paymentPartners {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+footer .copyright .paymentPartners .icon {
+  background-color: rgba(48, 81, 31, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3125rem;
+}
+footer .copyright .paymentPartners svg {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+footer .copyright span {
+  font-weight: 500;
+}
 /*------------------- Footer Css Ends --------------*/
 
 /***********
@@ -1875,7 +1903,7 @@ footer .accordion2 {
 }
 
 /*********delta-blog-page-css*********/
- .blog-post-tfc .product-discount {
+.blog-post-tfc .product-discount {
   position: sticky;
   top: 15rem;
 }
@@ -2360,15 +2388,14 @@ aside .filter-items .hrline.active2 h5::after {
 }
 .author_profile .author-id .author-img {
   border: none;
-
 }
 
-.author_profile .author-img img{
+.author_profile .author-img img {
   width: 235px;
   height: 235px;
 }
 
-.author_profile .widgets-review-tfc img{
+.author_profile .widgets-review-tfc img {
   width: 20px;
   height: 20px;
 }
@@ -2402,14 +2429,12 @@ aside .filter-items .hrline.active2 h5::after {
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 1.875rem;
-
 }
 
-.author_profile .tfc-blog-post{
+.author_profile .tfc-blog-post {
   margin-bottom: 6rem;
 }
 .author_profile .dtx-post-main .post-blog-content .review_widgets {
-
   display: flex;
   gap: 2rem;
 }
@@ -2430,13 +2455,11 @@ aside .filter-items .hrline.active2 h5::after {
   margin-bottom: 3.75rem;
 }
 
-.author-id .author-about h2{
+.author-id .author-about h2 {
   margin-bottom: 1rem;
 }
 /****<!--------Blog-post-end------>****/
 /******* author-profile-page-css-end *********/
-
-
 
 /**************single blog page css start*****************/
 .product-image > h3 {
