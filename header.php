@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,9 +13,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
 </head>
-
 <body>
-  <header>
+<header>
     <div class="topBar">
       <p>Free shipping orders above 49$</p>
       <!-- LogIn/Register Off Canvas for Desktop and Mobile -->
@@ -334,10 +332,10 @@
               </div>
               <div class="accordion-content">
                 <ul>
-                  <li><a href="">New Products</a></li>
-                  <li><a href="">Best Seller</a></li>
-                  <li><a href="">Sale/Bundles</a></li>
-                  <li><a href="">Apparel</a></li>
+                  <li><a href="/category.php">New Products</a></li>
+                  <li><a href="/category.php">Best Seller</a></li>
+                  <li><a href="/category.php">Sale/Bundles</a></li>
+                  <li><a href="/category.php">Apparel</a></li>
                 </ul>
               </div>
             </div>
@@ -352,11 +350,11 @@
               </div>
               <div class="accordion-content">
                 <ul>
-                  <li><a href="">Delta-9</a></li>
-                  <li><a href="">Delta-8</a></li>
-                  <li><a href="">HHC</a></li>
-                  <li><a href="">CBD</a></li>
-                  <li><a href="">THC Blends</a></li>
+                  <li><a href="/category.php">Delta-9</a></li>
+                  <li><a href="/category.php">Delta-8</a></li>
+                  <li><a href="/category.php">HHC</a></li>
+                  <li><a href="/category.php">CBD</a></li>
+                  <li><a href="/category.php">THC Blends</a></li>
                 </ul>
               </div>
             </div>
@@ -371,12 +369,12 @@
               </div>
               <div class="accordion-content">
                 <ul>
-                  <li><a href="">Disposable Vapes</a></li>
-                  <li><a href="">Vape Cartridge</a></li>
+                  <li><a href="/category.php">Disposable Vapes</a></li>
+                  <li><a href="/category.php">Vape Cartridge</a></li>
                   <li><a href="">Edibles/Gummies</a></li>
-                  <li><a href="">Flower</a></li>
-                  <li><a href="">Tinctures</a></li>
-                  <li><a href="">Pet Supplies</a></li>
+                  <li><a href="/category.php">Flower</a></li>
+                  <li><a href="/category.php">Tinctures</a></li>
+                  <li><a href="/category.php">Pet Supplies</a></li>
                 </ul>
               </div>
             </div>
@@ -391,11 +389,11 @@
               </div>
               <div class="accordion-content">
                 <ul>
-                  <li><a href="">Appetite</a></li>
-                  <li><a href="">Energy</a></li>
-                  <li><a href="">Focus</a></li>
-                  <li><a href="">Relief</a></li>
-                  <li><a href="">Sleep</a></li>
+                  <li><a href="/category.php">Appetite</a></li>
+                  <li><a href="/category.php">Energy</a></li>
+                  <li><a href="/category.php">Focus</a></li>
+                  <li><a href="/category.php">Relief</a></li>
+                  <li><a href="/category.php">Sleep</a></li>
                 </ul>
               </div>
             </div>
@@ -447,45 +445,45 @@
           <div class="accordion-content">
             <div class="menu-column">
               <ul>
-                <li><a href="">3 Chi</a></li>
-                <li><a href="">Buzz City</a></li>
-                <li><a href="">Dimo Hemp</a></li>
-                <li><a href="">Ghost Hemp</a></li>
-                <li><a href="">Koi</a></li>
-                <li><a href="">Moonwlkr</a></li>
-                <li><a href="">Space Gods</a></li>
+                <li><a href="/category.php">3 Chi</a></li>
+                <li><a href="/category.php">Buzz City</a></li>
+                <li><a href="/category.php">Dimo Hemp</a></li>
+                <li><a href="/category.php">Ghost Hemp</a></li>
+                <li><a href="/category.php">Koi</a></li>
+                <li><a href="/category.php">Moonwlkr</a></li>
+                <li><a href="/category.php">Space Gods</a></li>
               </ul>
             </div>
             <div class="menu-column">
               <ul>
-                <li><a href="">8 THC</a></li>
-                <li><a href="">Kali Extract</a></li>
-                <li><a href="">Exodus</a></li>
-                <li><a href="">Happi + Strange clouds</a></li>
-                <li><a href="">Kush Brust</a></li>
-                <li><a href="">Mr. O's</a></li>
-                <li><a href="">Sugar Extract Collaboration</a></li>
+                <li><a href="/category.php">8 THC</a></li>
+                <li><a href="/category.php">Kali Extract</a></li>
+                <li><a href="/category.php">Exodus</a></li>
+                <li><a href="/category.php">Happi + Strange clouds</a></li>
+                <li><a href="/category.php">Kush Brust</a></li>
+                <li><a href="/category.php">Mr. O's</a></li>
+                <li><a href="/category.php">Sugar Extract Collaboration</a></li>
               </ul>
             </div>
             <div class="menu-column">
               <ul>
-                <li><a href="">Bailey's Pet Products</a></li>
-                <li><a href="">Clean Remedies</a></li>
-                <li><a href="">Extrax</a></li>
-                <li><a href="">Happy Fruit</a></li>
-                <li><a href="">Looper</a></li>
-                <li><a href="">Pure Clear</a></li>
-                <li><a href="">Torch</a></li>
+                <li><a href="/category.php">Bailey's Pet Products</a></li>
+                <li><a href="/category.php">Clean Remedies</a></li>
+                <li><a href="/category.php">Extrax</a></li>
+                <li><a href="/category.php">Happy Fruit</a></li>
+                <li><a href="/category.php">Looper</a></li>
+                <li><a href="/category.php">Pure Clear</a></li>
+                <li><a href="/category.php">Torch</a></li>
               </ul>
             </div>
             <div class="menu-column">
               <ul>
-                <li><a href="">Binoid</a></li>
-                <li><a href="">Detla Ape</a></li>
-                <li><a href="">Fenix</a></li>
-                <li><a href="">Hummingbird Extracts</a></li>
-                <li><a href="">Looper + Packwood</a></li>
-                <li><a href="">Salp Hemp Co.</a></li>
+                <li><a href="/category.php">Binoid</a></li>
+                <li><a href="/category.php">Detla Ape</a></li>
+                <li><a href="/category.php">Fenix</a></li>
+                <li><a href="/category.php">Hummingbird Extracts</a></li>
+                <li><a href="/category.php">Looper + Packwood</a></li>
+                <li><a href="/category.php">Salp Hemp Co.</a></li>
               </ul>
             </div>
           </div>
@@ -505,7 +503,7 @@
             <ul>
               <li><a href="">About Us</a></li>
               <li><a href="">FAQ's</a></li>
-              <li><a href="/blog.html">Blog</a></li>
+              <li><a href="/blog.php">Blog</a></li>
               <li><a href="">Is Delta - 8 Legal?</a></li>
               <li><a href="">Is Delta - 9 Legal?</a></li>
               <li><a href="">Lab Results</a></li>
@@ -666,41 +664,41 @@
               <div class="menu-column">
                 <ul>
                   <li class="heading">Featured</li>
-                  <li><a href="">New Products</a></li>
-                  <li><a href="">Best Seller</a></li>
-                  <li><a href="">Sale/Bundles</a></li>
-                  <li><a href="">Apparel</a></li>
+                  <li><a href="/category.php">New Products</a></li>
+                  <li><a href="/category.php">Best Seller</a></li>
+                  <li><a href="/category.php">Sale/Bundles</a></li>
+                  <li><a href="/category.php">Apparel</a></li>
                 </ul>
               </div>
               <div class="menu-column">
                 <ul>
                   <li class="heading">Ingredient</li>
-                  <li><a href="">Delta-9</a></li>
-                  <li><a href="">Delta-8</a></li>
-                  <li><a href="">HHC</a></li>
-                  <li><a href="">CBD</a></li>
-                  <li><a href="">THC Blends</a></li>
+                  <li><a href="/category.php">Delta-9</a></li>
+                  <li><a href="/category.php">Delta-8</a></li>
+                  <li><a href="/category.php">HHC</a></li>
+                  <li><a href="/category.php">CBD</a></li>
+                  <li><a href="/category.php">THC Blends</a></li>
                 </ul>
               </div>
               <div class="menu-column">
                 <ul>
                   <li class="heading">Type</li>
-                  <li><a href="">Disposable Vapes</a></li>
-                  <li><a href="">Vape Cartridge</a></li>
-                  <li><a href="">Edibles/Gummies</a></li>
-                  <li><a href="">Flower</a></li>
-                  <li><a href="">Tinctures</a></li>
-                  <li><a href="">Pet Supplies</a></li>
+                  <li><a href="/category.php">Disposable Vapes</a></li>
+                  <li><a href="/category.php">Vape Cartridge</a></li>
+                  <li><a href="/category.php">Edibles/Gummies</a></li>
+                  <li><a href="/category.php">Flower</a></li>
+                  <li><a href="/category.php">Tinctures</a></li>
+                  <li><a href="/category.php">Pet Supplies</a></li>
                 </ul>
               </div>
               <div class="menu-column">
                 <ul>
                   <li class="heading">Benefits</li>
-                  <li><a href="">Appetite</a></li>
-                  <li><a href="">Energy</a></li>
-                  <li><a href="">Focus</a></li>
-                  <li><a href="">Relief</a></li>
-                  <li><a href="">Sleep</a></li>
+                  <li><a href="/category.php">Appetite</a></li>
+                  <li><a href="/category.php">Energy</a></li>
+                  <li><a href="/category.php">Focus</a></li>
+                  <li><a href="/category.php">Relief</a></li>
+                  <li><a href="/category.php">Sleep</a></li>
                 </ul>
               </div>
               <div class="menu-column image-column">
@@ -767,45 +765,45 @@
             <div class="mega-menu">
               <div class="menu-column">
                 <ul>
-                  <li><a href="">3 Chi</a></li>
-                  <li><a href="">Buzz City</a></li>
-                  <li><a href="">Dimo Hemp</a></li>
-                  <li><a href="">Ghost Hemp</a></li>
-                  <li><a href="">Koi</a></li>
-                  <li><a href="">Moonwlkr</a></li>
-                  <li><a href="">Space Gods</a></li>
+                  <li><a href="/category.php">3 Chi</a></li>
+                  <li><a href="/category.php">Buzz City</a></li>
+                  <li><a href="/category.php">Dimo Hemp</a></li>
+                  <li><a href="/category.php">Ghost Hemp</a></li>
+                  <li><a href="/category.php">Koi</a></li>
+                  <li><a href="/category.php">Moonwlkr</a></li>
+                  <li><a href="/category.php">Space Gods</a></li>
                 </ul>
               </div>
               <div class="menu-column">
                 <ul>
-                  <li><a href="">8 THC</a></li>
-                  <li><a href="">Kali Extract</a></li>
-                  <li><a href="">Exodus</a></li>
-                  <li><a href="">Happi + Strange clouds</a></li>
-                  <li><a href="">Kush Brust</a></li>
-                  <li><a href="">Mr. O's</a></li>
-                  <li><a href="">Sugar Extract Collaboration</a></li>
+                  <li><a href="/category.php">8 THC</a></li>
+                  <li><a href="/category.php">Kali Extract</a></li>
+                  <li><a href="/category.php">Exodus</a></li>
+                  <li><a href="/category.php">Happi + Strange clouds</a></li>
+                  <li><a href="/category.php">Kush Brust</a></li>
+                  <li><a href="/category.php">Mr. O's</a></li>
+                  <li><a href="/category.php">Sugar Extract Collaboration</a></li>
                 </ul>
               </div>
               <div class="menu-column">
                 <ul>
-                  <li><a href="">Bailey's Pet Products</a></li>
-                  <li><a href="">Clean Remedies</a></li>
-                  <li><a href="">Extrax</a></li>
-                  <li><a href="">Happy Fruit</a></li>
-                  <li><a href="">Looper</a></li>
-                  <li><a href="">Pure Clear</a></li>
-                  <li><a href="">Torch</a></li>
+                  <li><a href="/category.php">Bailey's Pet Products</a></li>
+                  <li><a href="/category.php">Clean Remedies</a></li>
+                  <li><a href="/category.php">Extrax</a></li>
+                  <li><a href="/category.php">Happy Fruit</a></li>
+                  <li><a href="/category.php">Looper</a></li>
+                  <li><a href="/category.php">Pure Clear</a></li>
+                  <li><a href="/category.php">Torch</a></li>
                 </ul>
               </div>
               <div class="menu-column">
                 <ul>
-                  <li><a href="">Binoid</a></li>
-                  <li><a href="">Detla Ape</a></li>
-                  <li><a href="">Fenix</a></li>
-                  <li><a href="">Hummingbird Extracts</a></li>
-                  <li><a href="">Looper + Packwood</a></li>
-                  <li><a href="">Salp Hemp Co.</a></li>
+                  <li><a href="/category.php">Binoid</a></li>
+                  <li><a href="/category.php">Detla Ape</a></li>
+                  <li><a href="/category.php">Fenix</a></li>
+                  <li><a href="/category.php">Hummingbird Extracts</a></li>
+                  <li><a href="/category.php">Looper + Packwood</a></li>
+                  <li><a href="/category.php">Salp Hemp Co.</a></li>
                 </ul>
               </div>
             </div>
@@ -843,7 +841,7 @@
             <ul>
               <li><a href="">About Us</a></li>
               <li><a href="">FAQ's</a></li>
-              <li><a href="blog.html">Blog</a></li>
+              <li><a href="blog.php">Blog</a></li>
               <li><a href="">Is Delta - 8 Legal?</a></li>
               <li><a href="">Is Delta - 9 Legal?</a></li>
               <li><a href="">Lab Results</a></li>
@@ -880,618 +878,5 @@
       </div>
     </nav>
   </header>
-
-
-
-  <main>
-    <!--------------blog-page-start------------- -->
-    <section class="author_profile">
-      <div class="container">
-        <div class="located-page">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li class="">
-              <img src="assets/arrow-located.svg" alt="" />
-            </li>
-            <li><a href="#">Resources</a></li>
-            <li>
-                <img src="assets/arrow-located.svg" alt="" />
-            </li>
-            <li><a href="#">Blog</a></li>
-            <li class="">
-              <img src="assets/arrow-located.svg" alt="" />
-            </li>
-            <li><a href="#">Editorial Staff</a></li>
-          </ul>
-        </div>
-        <div class="blog-post-tfc">
-          <!---------blog-post------------>
-          <!--------- author-page-start------->
-          <div class="product-image">
-            <h3>Editorial Staff</h3>
-            <div class="author-id">
-                <div class="author-img">
-                  <img src="assets/author_name.jpeg" alt="">
-                </div>
-                <div class="author-about">
-                  <h2>Author Name</h2>
-                  <p>
-                    As you embark on your CBD journey, it's crucial to understand the potential benefits and uses of this natural compound. 
-                    From pain relief to stress reduction and improved sleep, CBD offers promising possibilities for enhancing your overall 
-                    well-being. Remember to choose high-quality CBD products, start with a low dosage, and consult with a healthcare professional 
-                    if needed. Here's to discovering the potential benefits that CBD can bring to your life!
-                  </p>
-                </div>
-              </div>
-              <!--------Blog-post-start------>
-              <div class="tfc-blog-post">
-                <h2>The Beginner's Guide to CBD: Understanding Its Benefits and Uses</h2>
-                  <div class="dtx-post-main">
-                     <div class="post-blog-image">
-                        <img src="assets/s1.svg" alt="" />
-                     </div>
-                     <div class="post-blog-content">
-                        <div class="shortened-text">
-                        <p>Do you want to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently  <samp><a href="#"></a></samp>
-                        </p>
-                    </div>
-                        <div class="review_widgets">
-                            <div class="widgets-review-tfc">
-                              <svg class="eyeBtn" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24.1718 12.2344C23.2529 9.85754 21.6577 7.80204 19.5833 6.32194C17.509 4.84184 15.0464 4.00201 12.4999 3.90625C9.95344 4.00201 7.49084 4.84184 5.41648 6.32194C3.34211 7.80204 1.74691 9.85754 0.828037 12.2344C0.76598 12.406 0.76598 12.594 0.828037 12.7656C1.74691 15.1425 3.34211 17.198 5.41648 18.6781C7.49084 20.1582 9.95344 20.998 12.4999 21.0938C15.0464 20.998 17.509 20.1582 19.5833 18.6781C21.6577 17.198 23.2529 15.1425 24.1718 12.7656C24.2338 12.594 24.2338 12.406 24.1718 12.2344ZM12.4999 19.5312C8.35929 19.5312 3.98429 16.4609 2.39835 12.5C3.98429 8.53906 8.35929 5.46875 12.4999 5.46875C16.6405 5.46875 21.0155 8.53906 22.6015 12.5C21.0155 16.4609 16.6405 19.5312 12.4999 19.5312Z" fill="#25A870"></path>
-                                <path d="M12.5 7.8125C11.5729 7.8125 10.6666 8.08742 9.89577 8.60249C9.12491 9.11756 8.5241 9.84964 8.16932 10.7062C7.81453 11.5627 7.7217 12.5052 7.90257 13.4145C8.08344 14.3238 8.52988 15.159 9.18544 15.8146C9.841 16.4701 10.6762 16.9166 11.5855 17.0974C12.4948 17.2783 13.4373 17.1855 14.2938 16.8307C15.1504 16.4759 15.8824 15.8751 16.3975 15.1042C16.9126 14.3334 17.1875 13.4271 17.1875 12.5C17.1875 11.2568 16.6936 10.0645 15.8146 9.18544C14.9355 8.30636 13.7432 7.8125 12.5 7.8125ZM12.5 15.625C11.8819 15.625 11.2777 15.4417 10.7638 15.0983C10.2499 14.755 9.8494 14.2669 9.61288 13.6959C9.37635 13.1249 9.31447 12.4965 9.43505 11.8903C9.55563 11.2842 9.85325 10.7273 10.2903 10.2903C10.7273 9.85325 11.2842 9.55562 11.8903 9.43505C12.4965 9.31447 13.1249 9.37635 13.6959 9.61288C14.2669 9.8494 14.755 10.2499 15.0983 10.7638C15.4417 11.2777 15.625 11.8819 15.625 12.5C15.625 13.3288 15.2958 14.1237 14.7097 14.7097C14.1237 15.2958 13.3288 15.625 12.5 15.625Z" fill="#25A870"></path>
-                                </svg>                                <h5>1.1 k Views</h5>
-                              </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/uil_calender.svg" alt="image">
-                              <h5>Wednesday, April 23, 2014</h5>
-                            </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/Vector.svg" alt="image">
-                              <h5>5 Comments</h5>
-                            </div>
-                          </div>
-                     </div>
-                  </div>
-              </div>    
-              <div class="tfc-blog-post">
-                <h2>The Beginner's Guide to CBD: Understanding Its Benefits and Uses</h2>
-                  <div class="dtx-post-main">
-                     <div class="post-blog-image">
-                        <img src="assets/s1.svg" alt="" />
-                     </div>
-                     <div class="post-blog-content">
-                        <div class="shortened-text">
-                        <p>Do you want to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently  <samp><a href="#"></a></samp>
-                        </p>
-                    </div>
-                        <div class="review_widgets">
-                            <div class="widgets-review-tfc">
-                              <svg class="eyeBtn" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24.1718 12.2344C23.2529 9.85754 21.6577 7.80204 19.5833 6.32194C17.509 4.84184 15.0464 4.00201 12.4999 3.90625C9.95344 4.00201 7.49084 4.84184 5.41648 6.32194C3.34211 7.80204 1.74691 9.85754 0.828037 12.2344C0.76598 12.406 0.76598 12.594 0.828037 12.7656C1.74691 15.1425 3.34211 17.198 5.41648 18.6781C7.49084 20.1582 9.95344 20.998 12.4999 21.0938C15.0464 20.998 17.509 20.1582 19.5833 18.6781C21.6577 17.198 23.2529 15.1425 24.1718 12.7656C24.2338 12.594 24.2338 12.406 24.1718 12.2344ZM12.4999 19.5312C8.35929 19.5312 3.98429 16.4609 2.39835 12.5C3.98429 8.53906 8.35929 5.46875 12.4999 5.46875C16.6405 5.46875 21.0155 8.53906 22.6015 12.5C21.0155 16.4609 16.6405 19.5312 12.4999 19.5312Z" fill="#25A870"></path>
-                                <path d="M12.5 7.8125C11.5729 7.8125 10.6666 8.08742 9.89577 8.60249C9.12491 9.11756 8.5241 9.84964 8.16932 10.7062C7.81453 11.5627 7.7217 12.5052 7.90257 13.4145C8.08344 14.3238 8.52988 15.159 9.18544 15.8146C9.841 16.4701 10.6762 16.9166 11.5855 17.0974C12.4948 17.2783 13.4373 17.1855 14.2938 16.8307C15.1504 16.4759 15.8824 15.8751 16.3975 15.1042C16.9126 14.3334 17.1875 13.4271 17.1875 12.5C17.1875 11.2568 16.6936 10.0645 15.8146 9.18544C14.9355 8.30636 13.7432 7.8125 12.5 7.8125ZM12.5 15.625C11.8819 15.625 11.2777 15.4417 10.7638 15.0983C10.2499 14.755 9.8494 14.2669 9.61288 13.6959C9.37635 13.1249 9.31447 12.4965 9.43505 11.8903C9.55563 11.2842 9.85325 10.7273 10.2903 10.2903C10.7273 9.85325 11.2842 9.55562 11.8903 9.43505C12.4965 9.31447 13.1249 9.37635 13.6959 9.61288C14.2669 9.8494 14.755 10.2499 15.0983 10.7638C15.4417 11.2777 15.625 11.8819 15.625 12.5C15.625 13.3288 15.2958 14.1237 14.7097 14.7097C14.1237 15.2958 13.3288 15.625 12.5 15.625Z" fill="#25A870"></path>
-                                </svg>
-                                <h5>1.1 k Views</h5>
-                              </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/uil_calender.svg" alt="image">
-                              <h5>Wednesday, April 23, 2014</h5>
-                            </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/Vector.svg" alt="image">
-                              <h5>5 Comments</h5>
-                            </div>
-                          </div>
-                     </div>
-                  </div>
-              </div>    
-              <div class="tfc-blog-post">
-                <h2>The Beginner's Guide to CBD: Understanding Its Benefits and Uses</h2>
-                  <div class="dtx-post-main">
-                     <div class="post-blog-image">
-                        <img src="assets/s1.svg" alt="" />
-                     </div>
-                     <div class="post-blog-content">
-                        <div class="shortened-text">
-                        <p>Do you want to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently  <samp><a href="#"></a></samp>
-                        </p>
-                    </div>
-                        <div class="review_widgets">
-                            <div class="widgets-review-tfc">
-                              <svg class="eyeBtn" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24.1718 12.2344C23.2529 9.85754 21.6577 7.80204 19.5833 6.32194C17.509 4.84184 15.0464 4.00201 12.4999 3.90625C9.95344 4.00201 7.49084 4.84184 5.41648 6.32194C3.34211 7.80204 1.74691 9.85754 0.828037 12.2344C0.76598 12.406 0.76598 12.594 0.828037 12.7656C1.74691 15.1425 3.34211 17.198 5.41648 18.6781C7.49084 20.1582 9.95344 20.998 12.4999 21.0938C15.0464 20.998 17.509 20.1582 19.5833 18.6781C21.6577 17.198 23.2529 15.1425 24.1718 12.7656C24.2338 12.594 24.2338 12.406 24.1718 12.2344ZM12.4999 19.5312C8.35929 19.5312 3.98429 16.4609 2.39835 12.5C3.98429 8.53906 8.35929 5.46875 12.4999 5.46875C16.6405 5.46875 21.0155 8.53906 22.6015 12.5C21.0155 16.4609 16.6405 19.5312 12.4999 19.5312Z" fill="#25A870"></path>
-                                <path d="M12.5 7.8125C11.5729 7.8125 10.6666 8.08742 9.89577 8.60249C9.12491 9.11756 8.5241 9.84964 8.16932 10.7062C7.81453 11.5627 7.7217 12.5052 7.90257 13.4145C8.08344 14.3238 8.52988 15.159 9.18544 15.8146C9.841 16.4701 10.6762 16.9166 11.5855 17.0974C12.4948 17.2783 13.4373 17.1855 14.2938 16.8307C15.1504 16.4759 15.8824 15.8751 16.3975 15.1042C16.9126 14.3334 17.1875 13.4271 17.1875 12.5C17.1875 11.2568 16.6936 10.0645 15.8146 9.18544C14.9355 8.30636 13.7432 7.8125 12.5 7.8125ZM12.5 15.625C11.8819 15.625 11.2777 15.4417 10.7638 15.0983C10.2499 14.755 9.8494 14.2669 9.61288 13.6959C9.37635 13.1249 9.31447 12.4965 9.43505 11.8903C9.55563 11.2842 9.85325 10.7273 10.2903 10.2903C10.7273 9.85325 11.2842 9.55562 11.8903 9.43505C12.4965 9.31447 13.1249 9.37635 13.6959 9.61288C14.2669 9.8494 14.755 10.2499 15.0983 10.7638C15.4417 11.2777 15.625 11.8819 15.625 12.5C15.625 13.3288 15.2958 14.1237 14.7097 14.7097C14.1237 15.2958 13.3288 15.625 12.5 15.625Z" fill="#25A870"></path>
-                                </svg>                                <h5>1.1 k Views</h5>
-                              </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/uil_calender.svg" alt="image">
-                              <h5>Wednesday, April 23, 2014</h5>
-                            </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/Vector.svg" alt="image">
-                              <h5>5 Comments</h5>
-                            </div>
-                          </div>
-                     </div>
-                  </div>
-              </div>    
-              <div class="tfc-blog-post">
-                <h2>The Beginner's Guide to CBD: Understanding Its Benefits and Uses</h2>
-                  <div class="dtx-post-main">
-                     <div class="post-blog-image">
-                        <img src="assets/s1.svg" alt="" />
-                     </div>
-                     <div class="post-blog-content">
-                        <div class="shortened-text">
-                        <p>Do you want to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently  <samp><a href="#"></a></samp>
-                        </p>
-                    </div>
-                        <div class="review_widgets">
-                            <div class="widgets-review-tfc">
-                              <svg class="eyeBtn" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24.1718 12.2344C23.2529 9.85754 21.6577 7.80204 19.5833 6.32194C17.509 4.84184 15.0464 4.00201 12.4999 3.90625C9.95344 4.00201 7.49084 4.84184 5.41648 6.32194C3.34211 7.80204 1.74691 9.85754 0.828037 12.2344C0.76598 12.406 0.76598 12.594 0.828037 12.7656C1.74691 15.1425 3.34211 17.198 5.41648 18.6781C7.49084 20.1582 9.95344 20.998 12.4999 21.0938C15.0464 20.998 17.509 20.1582 19.5833 18.6781C21.6577 17.198 23.2529 15.1425 24.1718 12.7656C24.2338 12.594 24.2338 12.406 24.1718 12.2344ZM12.4999 19.5312C8.35929 19.5312 3.98429 16.4609 2.39835 12.5C3.98429 8.53906 8.35929 5.46875 12.4999 5.46875C16.6405 5.46875 21.0155 8.53906 22.6015 12.5C21.0155 16.4609 16.6405 19.5312 12.4999 19.5312Z" fill="#25A870"></path>
-                                <path d="M12.5 7.8125C11.5729 7.8125 10.6666 8.08742 9.89577 8.60249C9.12491 9.11756 8.5241 9.84964 8.16932 10.7062C7.81453 11.5627 7.7217 12.5052 7.90257 13.4145C8.08344 14.3238 8.52988 15.159 9.18544 15.8146C9.841 16.4701 10.6762 16.9166 11.5855 17.0974C12.4948 17.2783 13.4373 17.1855 14.2938 16.8307C15.1504 16.4759 15.8824 15.8751 16.3975 15.1042C16.9126 14.3334 17.1875 13.4271 17.1875 12.5C17.1875 11.2568 16.6936 10.0645 15.8146 9.18544C14.9355 8.30636 13.7432 7.8125 12.5 7.8125ZM12.5 15.625C11.8819 15.625 11.2777 15.4417 10.7638 15.0983C10.2499 14.755 9.8494 14.2669 9.61288 13.6959C9.37635 13.1249 9.31447 12.4965 9.43505 11.8903C9.55563 11.2842 9.85325 10.7273 10.2903 10.2903C10.7273 9.85325 11.2842 9.55562 11.8903 9.43505C12.4965 9.31447 13.1249 9.37635 13.6959 9.61288C14.2669 9.8494 14.755 10.2499 15.0983 10.7638C15.4417 11.2777 15.625 11.8819 15.625 12.5C15.625 13.3288 15.2958 14.1237 14.7097 14.7097C14.1237 15.2958 13.3288 15.625 12.5 15.625Z" fill="#25A870"></path>
-                                </svg>                                <h5>1.1 k Views</h5>
-                              </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/uil_calender.svg" alt="image">
-                              <h5>Wednesday, April 23, 2014</h5>
-                            </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/Vector.svg" alt="image">
-                              <h5>5 Comments</h5>
-                            </div>
-                          </div>
-                     </div>
-                  </div>
-              </div>    
-              <div class="tfc-blog-post">
-                <h2>The Beginner's Guide to CBD: Understanding Its Benefits and Uses</h2>
-                  <div class="dtx-post-main">
-                     <div class="post-blog-image">
-                        <img src="assets/s1.svg" alt="" />
-                     </div>
-                     <div class="post-blog-content">
-                        <div class="shortened-text">
-                        <p>Do you want to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently to learn how to select and use nested blocks in WordPress? The WordPress Gutenberg nested blocks feature 
-                            allows you to add multiple blocks within a parent block. Then, you can customize different block elements at the same time, 
-                            organize post content efficiently  <samp><a href="#"></a></samp>
-                        </p>
-                    </div>
-                        <div class="review_widgets">
-                            <div class="widgets-review-tfc">
-                              <svg class="eyeBtn" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24.1718 12.2344C23.2529 9.85754 21.6577 7.80204 19.5833 6.32194C17.509 4.84184 15.0464 4.00201 12.4999 3.90625C9.95344 4.00201 7.49084 4.84184 5.41648 6.32194C3.34211 7.80204 1.74691 9.85754 0.828037 12.2344C0.76598 12.406 0.76598 12.594 0.828037 12.7656C1.74691 15.1425 3.34211 17.198 5.41648 18.6781C7.49084 20.1582 9.95344 20.998 12.4999 21.0938C15.0464 20.998 17.509 20.1582 19.5833 18.6781C21.6577 17.198 23.2529 15.1425 24.1718 12.7656C24.2338 12.594 24.2338 12.406 24.1718 12.2344ZM12.4999 19.5312C8.35929 19.5312 3.98429 16.4609 2.39835 12.5C3.98429 8.53906 8.35929 5.46875 12.4999 5.46875C16.6405 5.46875 21.0155 8.53906 22.6015 12.5C21.0155 16.4609 16.6405 19.5312 12.4999 19.5312Z" fill="#25A870"></path>
-                                <path d="M12.5 7.8125C11.5729 7.8125 10.6666 8.08742 9.89577 8.60249C9.12491 9.11756 8.5241 9.84964 8.16932 10.7062C7.81453 11.5627 7.7217 12.5052 7.90257 13.4145C8.08344 14.3238 8.52988 15.159 9.18544 15.8146C9.841 16.4701 10.6762 16.9166 11.5855 17.0974C12.4948 17.2783 13.4373 17.1855 14.2938 16.8307C15.1504 16.4759 15.8824 15.8751 16.3975 15.1042C16.9126 14.3334 17.1875 13.4271 17.1875 12.5C17.1875 11.2568 16.6936 10.0645 15.8146 9.18544C14.9355 8.30636 13.7432 7.8125 12.5 7.8125ZM12.5 15.625C11.8819 15.625 11.2777 15.4417 10.7638 15.0983C10.2499 14.755 9.8494 14.2669 9.61288 13.6959C9.37635 13.1249 9.31447 12.4965 9.43505 11.8903C9.55563 11.2842 9.85325 10.7273 10.2903 10.2903C10.7273 9.85325 11.2842 9.55562 11.8903 9.43505C12.4965 9.31447 13.1249 9.37635 13.6959 9.61288C14.2669 9.8494 14.755 10.2499 15.0983 10.7638C15.4417 11.2777 15.625 11.8819 15.625 12.5C15.625 13.3288 15.2958 14.1237 14.7097 14.7097C14.1237 15.2958 13.3288 15.625 12.5 15.625Z" fill="#25A870"></path>
-                                </svg>                                <h5>1.1 k Views</h5>
-                              </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/uil_calender.svg" alt="image">
-                              <h5>Wednesday, April 23, 2014</h5>
-                            </div>
-                            <div class="widgets-review-tfc">
-                              <img src="assets/Vector.svg" alt="image">
-                              <h5>5 Comments</h5>
-                            </div>
-                          </div>
-                     </div>
-                  </div>
-              </div>    
-          </div>
-           <!--------- author-page-end------->
-
-          <!-------blog-discount-banner--------->
-          <div class="product-discount">
-            <h3>Follow me on Social Media</h3>
-            <div class="social-icons">
-                <a href="">
-                  <div class="icon">
-                    <img src="/assets/fb-icon-default.svg" alt="">
-                  </div>
-                </a>
-                <a href="">
-                  <div class="icon">
-                    <img src="/assets/tweeter-icon-default.svg" alt="">
-                  </div>
-                </a>
-                <a href="">
-                  <div class="icon">
-                    <img src="/assets/pinterest-icon-default.svg" alt="">
-                  </div>
-                </a>
-                <a href="">
-                  <div class="icon">
-                    <img src="/assets/instagram-icon-default.svg" alt="">
-                  </div>
-                </a>
-                <a href="">
-                  <div class="icon">
-                    <img src="/assets/youtube-icon-default.svg" alt="">
-                  </div>
-                </a>
-              </div>
-          </div>
-        </div>
-    </div>
-   </section>
-    <!----------------- Section-10 Starts---------------- -->
-    <section class="section-10">
-      <div class="delivery-services grid-row">
-        <div class="column">
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 24H24V27H6V24ZM3 16.5H18V19.5H3V16.5Z" fill="#25A870" />
-            <path
-              d="M44.8785 24.909L40.3785 14.409C40.263 14.1391 40.0708 13.9091 39.8258 13.7475C39.5807 13.5859 39.2936 13.4998 39 13.5H34.5V10.5C34.5 10.1022 34.342 9.72064 34.0607 9.43934C33.7794 9.15804 33.3978 9 33 9H9.00001V12H31.5V30.834C30.8165 31.2309 30.2183 31.7592 29.74 32.3884C29.2617 33.0176 28.9126 33.7352 28.713 34.5H19.287C18.9219 33.086 18.0537 31.8537 16.845 31.0341C15.6363 30.2145 14.1702 29.8638 12.7215 30.0478C11.2728 30.2318 9.94091 30.9379 8.97553 32.0337C8.01015 33.1294 7.47754 34.5396 7.47754 36C7.47754 37.4604 8.01015 38.8706 8.97553 39.9663C9.94091 41.0621 11.2728 41.7682 12.7215 41.9522C14.1702 42.1362 15.6363 41.7855 16.845 40.9659C18.0537 40.1463 18.9219 38.914 19.287 37.5H28.713C29.0393 38.7874 29.7856 39.9292 30.8337 40.7448C31.8818 41.5604 33.172 42.0032 34.5 42.0032C35.8281 42.0032 37.1182 41.5604 38.1663 40.7448C39.2145 39.9292 39.9607 38.7874 40.287 37.5H43.5C43.8978 37.5 44.2794 37.342 44.5607 37.0607C44.842 36.7794 45 36.3978 45 36V25.5C45.0001 25.2968 44.9587 25.0957 44.8785 24.909ZM13.5 39C12.9067 39 12.3267 38.8241 11.8333 38.4944C11.34 38.1648 10.9554 37.6962 10.7284 37.1481C10.5013 36.5999 10.4419 35.9967 10.5577 35.4147C10.6734 34.8328 10.9591 34.2982 11.3787 33.8787C11.7983 33.4591 12.3328 33.1734 12.9147 33.0576C13.4967 32.9419 14.0999 33.0013 14.6481 33.2284C15.1962 33.4554 15.6648 33.8399 15.9944 34.3333C16.3241 34.8266 16.5 35.4067 16.5 36C16.4992 36.7954 16.1829 37.558 15.6205 38.1204C15.058 38.6829 14.2954 38.9992 13.5 39ZM34.5 16.5H38.01L41.226 24H34.5V16.5ZM34.5 39C33.9067 39 33.3267 38.8241 32.8333 38.4944C32.34 38.1648 31.9554 37.6962 31.7284 37.1481C31.5013 36.5999 31.4419 35.9967 31.5577 35.4147C31.6734 34.8328 31.9591 34.2982 32.3787 33.8787C32.7983 33.4591 33.3328 33.1734 33.9147 33.0576C34.4967 32.9419 35.0999 33.0013 35.6481 33.2284C36.1962 33.4554 36.6648 33.8399 36.9944 34.3333C37.3241 34.8266 37.5 35.4067 37.5 36C37.4992 36.7954 37.1829 37.558 36.6205 38.1204C36.058 38.6829 35.2954 38.9992 34.5 39ZM42 34.5H40.287C39.9566 33.2151 39.2092 32.0763 38.1619 31.2619C37.1146 30.4475 35.8267 30.0037 34.5 30V27H42V34.5Z"
-              fill="#25A870" />
-          </svg>
-          <span>Free Delivery above <br />
-            <span>99$</span>
-          </span>
-        </div>
-        <div class="column">
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M42 15.9998C43.0609 15.9998 44.0783 16.4212 44.8284 17.1714C45.5786 17.9215 46 18.9389 46 19.9998V27.9998C46 29.0607 45.5786 30.0781 44.8284 30.8282C44.0783 31.5784 43.0609 31.9998 42 31.9998H39.876C39.3884 35.8664 37.5065 39.4222 34.5835 41.9998C31.6605 44.5774 27.8972 45.9997 24 45.9998V41.9998C27.1826 41.9998 30.2348 40.7355 32.4853 38.4851C34.7357 36.2346 36 33.1824 36 29.9998V17.9998C36 14.8172 34.7357 11.765 32.4853 9.51452C30.2348 7.26408 27.1826 5.9998 24 5.9998C20.8174 5.9998 17.7652 7.26408 15.5147 9.51452C13.2643 11.765 12 14.8172 12 17.9998V31.9998H6C4.93913 31.9998 3.92172 31.5784 3.17157 30.8282C2.42143 30.0781 2 29.0607 2 27.9998V19.9998C2 18.9389 2.42143 17.9215 3.17157 17.1714C3.92172 16.4212 4.93913 15.9998 6 15.9998H8.124C8.61206 12.1336 10.4942 8.57835 13.4171 6.00115C16.3401 3.42396 20.1031 2.00195 24 2.00195C27.8969 2.00195 31.6599 3.42396 34.5828 6.00115C37.5058 8.57835 39.3879 12.1336 39.876 15.9998H42ZM15.52 31.5698L17.64 28.1778C19.5461 29.3719 21.7507 30.0034 24 29.9998C26.2493 30.0034 28.4538 29.3719 30.36 28.1778L32.48 31.5698C29.9385 33.1621 26.9991 34.0044 24 33.9998C21.0009 34.0045 18.0614 33.1622 15.52 31.5698Z"
-              fill="#25A870" />
-          </svg>
-          <span>World Class <br />
-            <span>Customer Service</span>
-          </span>
-        </div>
-        <div class="column">
-          <svg width="48" height="39" viewBox="0 0 48 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M40.8001 18.5273V18.7738L46.0276 13.5667C47.6701 11.9306 47.6701 9.286 46.0276 7.64991L40.1701 1.82277C38.5276 0.186682 35.8726 0.186682 34.2301 1.82277L31.2226 4.81852C31.0201 4.79611 30.8101 4.78116 30.6001 4.78116H22.2001C19.4176 4.78116 17.1301 6.87296 16.8301 9.56242H16.8001V18.5273C16.8001 20.1783 18.1426 21.5155 19.8001 21.5155C21.4576 21.5155 22.8001 20.1783 22.8001 18.5273V11.953H34.8001C38.1151 11.953 40.8001 14.6276 40.8001 17.9296V18.5273ZM25.2001 14.3437V18.5273C25.2001 21.5006 22.7851 23.9062 19.8001 23.9062C16.8151 23.9062 14.4001 21.5006 14.4001 18.5273V9.667C11.7076 10.1302 9.4651 12.08 8.7001 14.762L7.4626 19.0651L1.9726 24.5337C0.330098 26.1698 0.330098 28.8144 1.9726 30.4505L7.8301 36.2851C9.4726 37.9212 12.1276 37.9212 13.7701 36.2851L16.5976 33.4687C16.6651 33.4687 16.7326 33.4761 16.8001 33.4761H28.8001C30.7876 33.4761 32.4001 31.8699 32.4001 29.8902C32.4001 29.4718 32.3251 29.0684 32.1976 28.6949H32.4001C34.3876 28.6949 36.0001 27.0887 36.0001 25.1089C36.0001 24.1527 35.6251 23.2861 35.0101 22.6436C36.9376 22.2701 38.3926 20.5817 38.4001 18.5497V18.5198C38.3926 16.2188 36.5176 14.3511 34.2001 14.3511H25.2001V14.3437Z"
-              fill="#25A870" />
-          </svg>
-          <span>Worry Free <br />
-            <span>Guarantee</span>
-          </span>
-        </div>
-        <div class="column">
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M28.425 9.6C28.425 10.5548 28.0457 11.4705 27.3706 12.1456C26.6955 12.8207 25.7798 13.2 24.825 13.2C23.8702 13.2 22.9545 12.8207 22.2794 12.1456C21.6043 11.4705 21.225 10.5548 21.225 9.6C21.225 8.64522 21.6043 7.72955 22.2794 7.05442C22.9545 6.37928 23.8702 6 24.825 6C25.7798 6 26.6955 6.37928 27.3706 7.05442C28.0457 7.72955 28.425 8.64522 28.425 9.6ZM38 28H23.752L28.238 32.426C28.4202 32.6059 28.5662 32.8191 28.668 33.054L31.335 39.204C31.4395 39.445 31.4956 39.7042 31.4999 39.9668C31.5043 40.2295 31.4569 40.4904 31.3604 40.7347C31.2639 40.979 31.1203 41.2019 30.9376 41.3907C30.755 41.5795 30.537 41.7305 30.296 41.835C30.055 41.9395 29.7958 41.9956 29.5332 41.9999C29.2705 42.0043 29.0096 41.9569 28.7653 41.8604C28.521 41.7639 28.2981 41.6203 28.1093 41.4376C27.9205 41.255 27.7695 41.037 27.665 40.796L25.152 35L18.057 28H10C9.46957 28 8.96086 28.2107 8.58579 28.5858C8.21071 28.9609 8 29.4696 8 30V42H6V30C6 28.9391 6.42143 27.9217 7.17157 27.1716C7.92172 26.4214 8.93913 26 10 26H15.964C15.215 23.478 15.49 20.872 16.081 18.856C16.398 17.775 16.826 16.79 17.305 16.004C17.5389 15.6125 17.8131 15.2465 18.123 14.912C18.406 14.613 18.833 14.237 19.403 14.025C20.645 13.564 21.947 13.599 23.108 14.199C24.221 14.775 25.005 15.764 25.513 16.855C25.723 17.305 25.916 17.725 26.097 18.118C26.537 19.068 26.904 19.867 27.257 20.569C27.753 21.555 28.145 22.193 28.525 22.635C28.872 23.04 29.211 23.282 29.643 23.451C30.113 23.635 30.789 23.768 31.86 23.8C32.1344 23.8082 32.4042 23.8729 32.6526 23.9899C32.9009 24.1069 33.1225 24.2738 33.3036 24.4802C33.4846 24.6865 33.6213 24.928 33.7049 25.1895C33.7886 25.4509 33.8176 25.7268 33.79 26H38C39.0609 26 40.0783 26.4214 40.8284 27.1716C41.5786 27.9217 42 28.9391 42 30V42H40V30C40 29.4696 39.7893 28.9609 39.4142 28.5858C39.0391 28.2107 38.5304 28 38 28ZM24.363 23.627L23.848 26H26.24C25.972 25.7651 25.7213 25.5111 25.49 25.24C25.0669 24.7371 24.6898 24.1972 24.363 23.627ZM16.486 29.773L19.786 32.939L18.539 37.149C18.489 37.32 18.415 37.484 18.321 37.635L16.199 41.055C15.9192 41.5057 15.4718 41.8269 14.9552 41.9477C14.4387 42.0686 13.8952 41.9793 13.4445 41.6995C12.9938 41.4197 12.6726 40.9723 12.5518 40.4557C12.4309 39.9392 12.5202 39.3957 12.8 38.945L14.78 35.755L16.122 31.227L16.486 29.773Z"
-              fill="#25A870" />
-          </svg>
-          <span>All Purchases <br />
-            <span>Support Veterans</span>
-          </span>
-        </div>
-      </div>
-    </section>
-    <!----------------- //Section-10 Ends---------------- -->
-  </main>
-
-  <!----------------- Footer Section Starts---------------- -->
-  <footer>
-    <div class="container">
-      <div class="social-links">
-        <a href="index.html">
-          <div class="main_logo">
-            <img src="assets/main-logo-footer.svg" alt="" />
-          </div>
-        </a>
-        <div class="social-icons">
-          <a href="">
-            <div class="icon">
-              <img src="/assets/fb-icon-default.svg" alt="" />
-            </div>
-          </a>
-          <a href="">
-            <div class="icon">
-              <img src="/assets/tweeter-icon-default.svg" alt="" />
-            </div>
-          </a>
-          <a href="">
-            <div class="icon">
-              <img src="/assets/pinterest-icon-default.svg" alt="" />
-            </div>
-          </a>
-          <a href="">
-            <div class="icon">
-              <img src="/assets/instagram-icon-default.svg" alt="" />
-            </div>
-          </a>
-          <a href="">
-            <div class="icon">
-              <img src="/assets/youtube-icon-default.svg" alt="" />
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <!-- Footer navigation for Desktop -->
-      <div class="foot-nav">
-        <div class="foot-links">
-          <span>Support Center</span>
-          <a href="" class="phone">
-            <img src="/assets/phone.svg" alt="" />
-            021 286 9055
-          </a>
-          <a href="" class="e-mail">
-            <img src="/assets/mail.svg" alt="" />
-            info@purecalmleaf
-          </a>
-        </div>
-        <div class="foot-links">
-          <span>Concierge Desk</span>
-          <ul>
-            <li><a href=""> All Products </a></li>
-            <li><a href=""> Delivery & Returns </a></li>
-            <li><a href="">Refund policy</a></li>
-            <li><a href="">Privacy policy</a></li>
-            <li><a href="">Terms of Service</a></li>
-          </ul>
-        </div>
-        <div class="foot-links">
-          <span>Company</span>
-          <ul>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">Shop by Categories</a></li>
-            <li><a href="">Shop by Strains</a></li>
-            <li><a href="">Shop by Brands</a></li>
-          </ul>
-        </div>
-        <div class="foot-links">
-          <span>Quick Links</span>
-          <ul>
-            <li><a href="">Blog</a></li>
-            <li><a href="">FAQ's</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">FDA Disclaimer</a></li>
-            <li><a href="">Legal Status</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- //Footer navigation for Desktop -->
-
-      <!-- Footer navigation for Mobile -->
-      <div class="accordion2">
-        <div class="contentBx">
-          <div class="label">
-            <h3>Support Centre</h3>
-          </div>
-          <div class="content">
-            <div class="foot-links">
-              <a href="" class="phone">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6.72867 2.31644L8.38895 1.81586C8.9369 1.65092 9.52615 1.69094 10.0468 1.92846C10.5674 2.16598 10.9838 2.58477 11.2184 3.10672L12.3824 5.69529C12.5844 6.14437 12.6407 6.64544 12.5434 7.12816C12.4461 7.61087 12.2 8.05099 11.8398 8.38672L10.0681 10.0376C9.83067 10.263 10.0107 11.1416 10.8781 12.645C11.7464 14.1493 12.4175 14.7441 12.727 14.6516L15.0481 13.9419C15.5186 13.798 16.0223 13.8049 16.4887 13.9617C16.9551 14.1184 17.3607 14.4172 17.6487 14.8161L19.303 17.109C19.6371 17.572 19.7918 18.1406 19.7384 18.709C19.6849 19.2775 19.427 19.8072 19.0124 20.1999L17.7335 21.411C17.3207 21.802 16.8115 22.0764 16.258 22.2064C15.7045 22.3363 15.1264 22.3171 14.5827 22.1507C11.9032 21.3304 9.42181 18.8961 7.10495 14.8821C4.78295 10.8622 3.9061 7.47129 4.51724 4.70101C4.6405 4.1428 4.9104 3.62756 5.29912 3.2084C5.68784 2.78925 6.18131 2.48135 6.72867 2.31644Z"
-                    fill="#25A870" />
-                </svg>
-                <p>021 286 9055</p>
-              </a>
-              <a href="" class="e-mail">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"
-                    fill="#25A870" />
-                </svg>
-                <p>info@purecalmleaf</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="contentBx">
-          <div class="label">
-            <h3>Concierge Desk</h3>
-          </div>
-          <div class="content">
-            <div class="foot-links">
-              <span>Concierge Desk</span>
-              <ul>
-                <li><a href=""> All Products </a></li>
-                <li><a href=""> Delivery & Returns </a></li>
-                <li><a href="">Refund policy</a></li>
-                <li><a href="">Privacy policy</a></li>
-                <li><a href="">Terms of Service</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="contentBx">
-          <div class="label">
-            <h3>Company</h3>
-          </div>
-          <div class="content">
-            <div class="foot-links">
-              <span>Company</span>
-              <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Shop by Categories</a></li>
-                <li><a href="">Shop by Strains</a></li>
-                <li><a href="">Shop by Brands</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="contentBx">
-          <div class="label">
-            <li>Quick Links</li>
-          </div>
-          <div class="content">
-            <div class="foot-links">
-              <span>Quick Links</span>
-              <ul>
-                <li><a href="">Blog</a></li>
-                <li><a href="">FAQ's</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">FDA Disclaimer</a></li>
-                <li><a href="">Legal Status</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- //Footer navigation for Mobile -->
-    </div>
-    <div class="copyright">
-     <span>© 2023 PureCalmLeaf. All Rights Reserved</span>
-     <div class="paymentPartners">
-      <div class="icon">
-        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_99_4244)">
-          <path d="M45.4297 34.8047H4.57031C2.03125 34.8047 0 32.7734 0 30.2344V14.6094C0 12.1094 2.03125 10.0781 4.57031 10.0781H45.4688C47.9688 10.0781 50.0391 12.1094 50.0391 14.6484V30.2734C50 32.7734 47.9688 34.8047 45.4297 34.8047Z" fill="#7F54B3"/>
-          <path d="M5.39062 29.9606C5.39062 29.9606 6.48437 34.57 8.71094 31.484C10.9375 28.3981 13.0859 23.5543 13.0859 23.5543C13.0859 23.5543 13.2422 22.3434 13.8672 24.9997C14.4922 27.6559 17.1875 31.2497 17.1875 31.2497C17.1875 31.2497 19.6484 34.3356 20.6641 31.0934C20.2734 26.7965 21.7578 18.984 23.2812 15.234C23.9062 11.9137 20.4297 12.8512 20.1172 13.6325C19.8047 14.4137 17.6562 19.4137 17.5 24.6481C17.5 24.6481 15.6641 19.6481 15.5078 17.8512C15.3516 16.0153 13.4375 15.5465 12.3438 17.3043C11.25 19.0622 7.92969 25.859 7.92969 25.859L5.78125 14.7653C5.78125 14.7653 3.63281 11.9137 2.38281 15.3903C2.38281 15.3903 4.60938 29.0231 5.39062 29.9606ZM33.9844 17.8512C30.6641 12.3043 25.7422 16.5231 25.7422 16.5231C25.7422 16.5231 21.9922 20.859 23.6719 26.7575C26.3672 32.5778 30.1563 29.9997 31.1719 29.5309C32.2266 29.0231 36.6797 23.945 33.9844 17.8512ZM31.4453 22.734C31.4453 25.0387 29.5312 27.1872 27.9688 26.7184C27.1094 26.2106 26.5625 24.8434 26.5625 22.4997C27.3438 18.7106 29.0625 18.2028 29.9609 18.2809C31.6406 19.1793 31.5625 21.1715 31.4453 22.734ZM46.4453 17.8512C43.125 12.3043 38.2031 16.5231 38.2031 16.5231C38.2031 16.5231 34.4531 20.859 36.1328 26.7575C38.8281 32.5778 42.6172 29.9997 43.6328 29.5309C44.6484 29.0231 49.1406 23.945 46.4453 17.8512ZM43.9062 22.734C43.9062 25.0387 41.9922 27.1872 40.4297 26.7184C39.5703 26.2106 39.0234 24.8434 39.0234 22.4997C39.8047 18.7106 41.5234 18.2028 42.4219 18.2809C44.0625 19.1793 43.9844 21.1715 43.9062 22.734Z" fill="white"/>
-          <path d="M23.9453 34.8047L32.6562 39.9219L30.8203 34.8047L25.8203 33.3984L23.9453 34.8047Z" fill="#7F54B3"/>
-          </g>
-          <defs>
-          <clipPath id="clip0_99_4244">
-          <rect width="50" height="50" fill="white"/>
-          </clipPath>
-          </defs>
-          </svg>
-      </div>
-
-      <div class="icon">
-        <svg width="52" height="41" viewBox="0 0 52 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_93_2529)">
-          <path d="M9.45342 40.7959V38.0823C9.45342 37.0419 8.82902 36.3636 7.75875 36.3636C7.22372 36.3636 6.644 36.5445 6.24262 37.1325C5.93062 36.6349 5.48477 36.3636 4.81588 36.3636C4.36981 36.3636 3.92416 36.4992 3.56727 36.9967V36.4541H2.63086V40.7959H3.56727V38.3988C3.56727 37.6301 3.96864 37.2681 4.59305 37.2681C5.21705 37.2681 5.52945 37.6752 5.52945 38.3988V40.7959H6.46586V38.3988C6.46586 37.6301 6.91152 37.2681 7.49123 37.2681C8.11564 37.2681 8.42764 37.6752 8.42764 38.3988V40.7959H9.45342ZM23.321 36.4541H21.805V35.1425H20.8686V36.4541H20.0214V37.3132H20.8684V39.3035C20.8684 40.2986 21.2698 40.8864 22.3401 40.8864C22.7415 40.8864 23.1871 40.7508 23.4995 40.5699L23.2318 39.7557C22.9643 39.9366 22.6523 39.9819 22.4292 39.9819C21.9834 39.9819 21.805 39.7106 21.805 39.2581V37.3132H23.321V36.4541ZM31.2583 36.3634C30.7232 36.3634 30.3666 36.6349 30.1435 36.9967V36.4541H29.2071V40.7959H30.1435V38.3537C30.1435 37.6301 30.4555 37.223 31.0353 37.223C31.2136 37.223 31.4366 37.2683 31.615 37.3134L31.8825 36.4089C31.7041 36.3636 31.4366 36.3636 31.2583 36.3636V36.3634ZM19.2633 36.8158C18.8173 36.4992 18.1931 36.3636 17.5242 36.3636C16.4541 36.3636 15.7408 36.9063 15.7408 37.7656C15.7408 38.4894 16.2758 38.8963 17.2122 39.0321L17.658 39.0774C18.1486 39.1677 18.4161 39.3035 18.4161 39.5297C18.4161 39.8461 18.0594 40.0724 17.435 40.0724C16.8108 40.0724 16.3203 39.8461 16.0081 39.6201L15.5622 40.3437C16.0527 40.7055 16.7216 40.8864 17.3903 40.8864C18.6389 40.8864 19.3525 40.2986 19.3525 39.4843C19.3525 38.7154 18.7728 38.3083 17.8809 38.1728L17.435 38.1274C17.0336 38.0821 16.7216 37.9919 16.7216 37.7205C16.7216 37.4039 17.0336 37.223 17.5242 37.223C18.0594 37.223 18.5945 37.449 18.862 37.5847L19.2633 36.8158ZM44.1451 36.3636C43.6099 36.3636 43.2532 36.6349 43.0302 36.9967V36.4541H42.0938V40.7959H43.0302V38.3537C43.0302 37.6301 43.3424 37.223 43.9219 37.223C44.1005 37.223 44.3235 37.2683 44.5018 37.3134L44.7693 36.4089C44.591 36.3636 44.3235 36.3636 44.1451 36.3636ZM32.1947 38.625C32.1947 39.9366 33.0864 40.8864 34.4689 40.8864C35.0931 40.8864 35.5389 40.7508 35.9848 40.389L35.5389 39.6201C35.1823 39.8915 34.8256 40.027 34.4242 40.027C33.6661 40.027 33.1311 39.4843 33.1311 38.625C33.1311 37.811 33.6661 37.2681 34.4242 37.223C34.8256 37.223 35.1823 37.3585 35.5389 37.6301L35.9848 36.8612C35.5389 36.4992 35.0931 36.3636 34.4689 36.3636C33.0864 36.3636 32.1947 37.3134 32.1947 38.625ZM40.8454 38.625V36.4541H39.909V36.9967C39.5968 36.5898 39.1509 36.3636 38.5712 36.3636C37.3673 36.3636 36.4309 37.3134 36.4309 38.625C36.4309 39.9366 37.3673 40.8864 38.5712 40.8864C39.1954 40.8864 39.6415 40.6604 39.909 40.2533V40.7959H40.8454V38.625ZM37.4118 38.625C37.4118 37.8561 37.9023 37.223 38.7048 37.223C39.4629 37.223 39.9981 37.811 39.9981 38.625C39.9981 39.3939 39.4629 40.027 38.7048 40.027C37.9023 39.9817 37.4118 39.3939 37.4118 38.625ZM26.2196 36.3636C24.971 36.3636 24.079 37.2681 24.079 38.625C24.079 39.9819 24.9708 40.8864 26.264 40.8864C26.8883 40.8864 27.5127 40.7055 28.0032 40.2986L27.5571 39.6201C27.2005 39.8915 26.7546 40.0724 26.3087 40.0724C25.729 40.0724 25.1493 39.801 25.0154 39.0319H28.1815V38.6703C28.2262 37.2681 27.4237 36.3636 26.2196 36.3636ZM26.2196 37.1776C26.7991 37.1776 27.2007 37.5396 27.2896 38.2181H25.0601C25.1493 37.6301 25.5507 37.1776 26.2196 37.1776ZM49.4514 38.625V34.7354H48.515V36.9967C48.2028 36.5898 47.7569 36.3636 47.1772 36.3636C45.9733 36.3636 45.0369 37.3134 45.0369 38.625C45.0369 39.9366 45.9733 40.8864 47.1772 40.8864C47.8016 40.8864 48.2475 40.6604 48.515 40.2533V40.7959H49.4514V38.625ZM46.018 38.625C46.018 37.8561 46.5083 37.223 47.311 37.223C48.0691 37.223 48.6041 37.811 48.6041 38.625C48.6041 39.3939 48.0691 40.027 47.311 40.027C46.5083 39.9817 46.018 39.3939 46.018 38.625ZM14.715 38.625V36.4541H13.7786V36.9967C13.4664 36.5898 13.0205 36.3636 12.4408 36.3636C11.2369 36.3636 10.3005 37.3134 10.3005 38.625C10.3005 39.9366 11.2369 40.8864 12.4408 40.8864C13.0652 40.8864 13.511 40.6604 13.7786 40.2533V40.7959H14.715V38.625ZM11.2369 38.625C11.2369 37.8561 11.7274 37.223 12.53 37.223C13.288 37.223 13.8233 37.811 13.8233 38.625C13.8233 39.3939 13.288 40.027 12.53 40.027C11.7274 39.9817 11.2369 39.3939 11.2369 38.625Z" fill="black"/>
-          <path d="M18.9512 3.48242H32.9973V29.0819H18.9512V3.48242Z" fill="#FF5F00"/>
-          <path d="M19.8431 16.2824C19.8431 11.0811 22.2509 6.4677 25.9519 3.48253C23.232 1.31159 19.7986 0 16.053 0C7.17905 0 0 7.28172 0 16.2824C0 25.2828 7.17905 32.5647 16.0528 32.5647C19.7984 32.5647 23.2318 31.2531 25.9519 29.082C22.2509 26.1421 19.8431 21.4836 19.8431 16.2824Z" fill="#EB001B"/>
-          <path d="M51.9484 16.2824C51.9484 25.2828 44.7694 32.5647 35.8957 32.5647C32.15 32.5647 28.7166 31.2531 25.9966 29.082C29.7422 26.097 32.1056 21.4836 32.1056 16.2824C32.1056 11.0811 29.6975 6.4677 25.9966 3.48253C28.7164 1.31159 32.15 0 35.8957 0C44.7694 0 51.9484 7.32705 51.9484 16.2824Z" fill="#F79E1B"/>
-          </g>
-          <defs>
-          <clipPath id="clip0_93_2529">
-          <rect width="52" height="41" fill="white"/>
-          </clipPath>
-          </defs>
-          </svg>
-      </div>  
-
-      <div class="icon">
-        <svg width="90" height="14" viewBox="0 0 90 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_93_2536)">
-          <path d="M47.5236 0.0595703C43.308 0.0595703 39.8877 3.10945 39.8877 6.8735C39.8877 10.8755 43.1595 13.867 47.5236 13.867C51.7789 13.867 55.1388 10.8358 55.1388 6.95213C55.1388 3.09138 51.8014 0.0595703 47.5236 0.0595703Z" fill="url(#paint0_linear_93_2536)"/>
-          <g filter="url(#filter0_i_93_2536)">
-          <path d="M47.5236 0.0595703C43.308 0.0595703 39.8877 3.10945 39.8877 6.8735C39.8877 10.8755 43.1595 13.867 47.5236 13.867C51.7789 13.867 55.1388 10.8358 55.1388 6.95213C55.1388 3.09138 51.8014 0.0595703 47.5236 0.0595703Z" fill="url(#paint1_linear_93_2536)"/>
-          </g>
-          <path d="M4.17387 0.307836H0.0688477V13.5678H4.15242C6.3191 13.5678 7.88601 13.0924 9.26062 12.0379C10.8915 10.7852 11.8587 8.89635 11.8587 6.94416C11.8587 3.02937 8.70076 0.307836 4.17387 0.307836ZM7.43848 10.2669C6.55588 11.0043 5.41945 11.3231 3.61348 11.3231H2.86324V2.55321H3.61348C5.41945 2.55321 6.51229 2.85177 7.43848 3.62632C8.40439 4.42172 8.98043 5.65339 8.98043 6.92528C8.98043 8.19993 8.40439 9.47458 7.43848 10.2669ZM13.1479 13.5678H15.9379V0.307836H13.1482V13.5678H13.1479ZM22.768 5.39423C21.0912 4.81893 20.5978 4.43946 20.5978 3.72628C20.5978 2.89051 21.4764 2.25481 22.6806 2.25481C23.5179 2.25481 24.2048 2.57274 24.937 3.32597L26.3951 1.55921C25.1927 0.582952 23.7547 0.086603 22.1858 0.086603C19.6549 0.086603 17.7212 1.71777 17.7212 3.88288C17.7212 5.71363 18.6222 6.64723 21.2424 7.52435C22.3379 7.88037 22.8947 8.11788 23.1746 8.28018C23.7327 8.6183 24.0131 9.09381 24.0131 9.65007C24.0131 10.7255 23.089 11.5196 21.842 11.5196C20.5106 11.5196 19.4384 10.9039 18.7939 9.75084L16.9925 11.3631C18.2782 13.1103 19.8244 13.8883 21.952 13.8883C24.8503 13.8883 26.8887 12.0965 26.8887 9.53237C26.8887 7.42439 25.9465 6.4693 22.768 5.39423ZM27.7686 6.94432C27.7686 10.8456 31.0761 13.867 35.3283 13.867C36.5304 13.867 37.5609 13.6469 38.829 13.0923V10.0486C37.711 11.0836 36.7231 11.5 35.4557 11.5C32.6439 11.5 30.6458 9.61067 30.6458 6.92528C30.6458 4.38151 32.7063 2.373 35.3283 2.373C36.6574 2.373 37.6681 2.81009 38.829 3.86384V0.820463C37.6052 0.245812 36.5944 0.00878906 35.3921 0.00878906C31.1616 0.00878906 27.7686 3.09123 27.7686 6.94432ZM61.4575 9.21493L57.6354 0.307836H54.5863L60.6649 13.9066H62.1666L68.3511 0.307673H65.3246L61.4575 9.21493ZM69.6207 13.568H77.5423V11.3231H72.4114V7.74151H77.346V5.4963H72.4114V2.55304H77.5423V0.307998H69.6206V13.568H69.6207ZM88.597 4.22116C88.597 1.73714 86.7531 0.307836 83.5305 0.307836H79.3861V13.5678H82.1801V8.23851H82.5458L86.4086 13.5678H89.844L85.3322 7.98244C87.4395 7.58328 88.597 6.25051 88.597 4.22116ZM82.9928 6.41102H82.1801V2.39302H83.0374C84.7803 2.39302 85.7246 3.07104 85.7246 4.36149C85.7246 5.69263 84.7803 6.41102 82.9928 6.41102Z" fill="#0B1015"/>
-          </g>
-          <defs>
-          <filter id="filter0_i_93_2536" x="39.8877" y="0.0595703" width="18.251" height="16.8076" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-          <feOffset dx="3" dy="3"/>
-          <feGaussianBlur stdDeviation="4"/>
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
-          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_93_2536"/>
-          </filter>
-          <linearGradient id="paint0_linear_93_2536" x1="335.973" y1="125.196" x2="1283.56" y2="1205.89" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#F34F26"/>
-          <stop offset="1" stop-color="#F69E35"/>
-          </linearGradient>
-          <linearGradient id="paint1_linear_93_2536" x1="335.973" y1="125.196" x2="1283.56" y2="1205.89" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#F34F26"/>
-          <stop offset="1" stop-color="#F69E35"/>
-          </linearGradient>
-          <clipPath id="clip0_93_2536">
-          <rect width="90" height="14" fill="white"/>
-          </clipPath>
-          </defs>
-          </svg>
-      </div>  
-
-      <div class="icon">
-        <svg width="64" height="21" viewBox="0 0 64 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_93_2534)">
-          <path d="M33.0993 6.68662C33.0628 9.6003 35.665 11.2262 37.6253 12.1929C39.6393 13.1847 40.3158 13.8208 40.3078 14.7079C40.2928 16.0653 38.7013 16.6644 37.212 16.6877C34.6138 16.7284 33.103 15.9777 31.902 15.41L30.966 19.8425C32.171 20.4044 34.4022 20.8945 36.716 20.916C42.1473 20.916 45.7005 18.2027 45.7197 13.9959C45.741 8.65682 38.4228 8.3613 38.4728 5.97489C38.49 5.25128 39.1723 4.47909 40.6673 4.28275C41.4073 4.18357 43.45 4.10767 45.766 5.18701L46.675 0.89846C45.4295 0.439497 43.8288 1.52588e-05 41.8358 1.52588e-05C36.7238 1.52588e-05 33.1283 2.75026 33.0993 6.68662ZM55.4095 0.369411C54.4178 0.369411 53.582 0.954882 53.209 1.85333L45.4507 20.601H50.878L51.958 17.5803H58.59L59.2165 20.601H64L59.8257 0.369411H55.4095ZM56.1688 5.83473L57.735 13.4319H53.4455L56.1688 5.83473ZM26.519 0.369665L22.241 20.6008H27.4128L31.6887 0.36916H26.519M18.8682 0.36916L13.4853 14.1398L11.3077 2.43121C11.0522 1.12415 10.0433 0.369411 8.92275 0.369411H0.12325L0 0.956905C1.8065 1.35363 3.859 1.9935 5.1025 2.67815C5.8635 3.09638 6.0805 3.46198 6.3305 4.45581L10.4548 20.601H15.92L24.299 0.369411L18.8682 0.36916Z" fill="url(#paint0_linear_93_2534)"/>
-          </g>
-          <defs>
-          <linearGradient id="paint0_linear_93_2534" x1="2942.34" y1="62.8735" x2="3003.61" y2="-2085.19" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#222357"/>
-          <stop offset="1" stop-color="#254AA5"/>
-          </linearGradient>
-          <clipPath id="clip0_93_2534">
-          <rect width="64" height="21" fill="white"/>
-          </clipPath>
-          </defs>
-          </svg>
-      </div>  
-     </div>
-    </div>
-  </footer>
-  <!----------------- //Footer Section Ends---------------- -->
-
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script>
-    const nextIcon =
-      '<img src= "./assets/circled_right-arrow.svg" alt:"right">';
-    const prevIcon =
-      '<img src= "./assets/circled_left-arrow.svg" alt:"left">';
-
-    $(".carousel_se_01_carousel").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [prevIcon, nextIcon],
-      responsive: {
-        0: {
-          items: 2,
-        },
-        600: {
-          items: 3,
-        },
-        1000: {
-          items: 3,
-        },
-        1400: {
-          items: 4.5,
-        },
-      },
-    });
-
-    $(".carousel_se_02_carousel").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [prevIcon, nextIcon],
-      responsive: {
-        0: {
-          items: 1,
-        },
-        600: {
-          items: 2.5,
-        },
-        1000: {
-          items: 2.5,
-        },
-        1400: {
-          items: 4.5,
-        },
-      },
-    });
-  </script>
-  <script src="/js/script.js"></script>
 </body>
-
 </html>
-
