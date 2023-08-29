@@ -332,15 +332,15 @@
   /* //section-9 */
 
   /* section-10 */
-  .section-10 .delivery-services {
+  footer .delivery-services {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
   }
-  .section-10 .delivery-services .column {
+  footer .delivery-services .column {
     justify-content: flex-start;
     padding: 1.2rem;
   }
-  .section-10 .delivery-services .column span {
+  footer .delivery-services .column span {
     font-size: 1rem;
   }
   /* //section-10 */
@@ -702,17 +702,17 @@
   /* //section-9 */
 
   /* section-10 */
-  .section-10 .delivery-services {
+  footer .delivery-services {
     grid-template-columns: repeat(2, 1fr);
   }
-  .section-10 .delivery-services .column span {
+  footer .delivery-services .column span {
     font-size: 0.8rem;
   }
-  .section-10 .delivery-services .column img {
+  footer .delivery-services .column img {
     width: 40px;
     height: 40px;
   }
-  .section-10 .delivery-services .column {
+  footer .delivery-services .column {
     padding: 1rem;
   }
   /* //section-10 */

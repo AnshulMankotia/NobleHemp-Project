@@ -249,7 +249,7 @@
     </div>
 
     <div class="secondar_menuBar flex-row">
-      <a href="index.html">
+      <a href="index.php">
         <div class="main_logo">
           <img src="assets/main-logo.svg" alt="" />
         </div>
@@ -654,7 +654,7 @@
 
     <nav class="primary_menuBar">
       <ul>
-        <li class="home"><a href="index.html">Home</a></li>
+        <li class="home"><a href="index.php">Home</a></li>
 
         <!-- dropdonw for Shop Menu -->
         <li class="dropdown">

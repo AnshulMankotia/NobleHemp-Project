@@ -128,11 +128,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const counterInputs = document.querySelectorAll(".counterInput");
     const minusButtons = document.querySelectorAll(".minus");
     const plusButtons = document.querySelectorAll(".plus");
-    
+
     minusButtons.forEach((minus, index) => {
         minus.addEventListener("click", function () {
             const currentValue = parseInt(counterInputs[index].value);
-            if (currentValue > 0) {
+            if (currentValue > 1) {
                 counterInputs[index].value = currentValue - 1;
             }
         });
@@ -148,39 +148,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // --------------------------Filter Price Range-----------------------
-var lowerSlider = document.querySelector('#lower');
-var upperSlider = document.querySelector('#upper');
+document.addEventListener('DOMContentLoaded', function () {
+    var lowerSlider = document.querySelector('#lower');
+    var upperSlider = document.querySelector('#upper');
 
-document.querySelector('#two').value = upperSlider.value;
-document.querySelector('#one').value = lowerSlider.value;
+    document.querySelector('#two').value = upperSlider.value;
+    document.querySelector('#one').value = lowerSlider.value;
 
-var lowerVal = parseInt(lowerSlider.value);
-var upperVal = parseInt(upperSlider.value);
+    var lowerVal = parseInt(lowerSlider.value);
+    var upperVal = parseInt(upperSlider.value);
 
-upperSlider.oninput = function () {
-    lowerVal = parseInt(lowerSlider.value);
-    upperVal = parseInt(upperSlider.value);
+    upperSlider.oninput = function () {
+        lowerVal = parseInt(lowerSlider.value);
+        upperVal = parseInt(upperSlider.value);
 
-    if (upperVal < lowerVal + 4) {
-        lowerSlider.value = upperVal - 4;
-        if (lowerVal == lowerSlider.min) {
-            upperSlider.value = 4;
+        if (upperVal < lowerVal + 4) {
+            lowerSlider.value = upperVal - 4;
+            if (lowerVal == lowerSlider.min) {
+                upperSlider.value = 4;
+            }
         }
-    }
-    document.querySelector('#two').value = this.value
-};
+        document.querySelector('#two').value = this.value
+    };
 
-lowerSlider.oninput = function () {
-    lowerVal = parseInt(lowerSlider.value);
-    upperVal = parseInt(upperSlider.value);
-    if (lowerVal > upperVal - 4) {
-        upperSlider.value = lowerVal + 4;
-        if (upperVal == upperSlider.max) {
-            lowerSlider.value = parseInt(upperSlider.max) - 4;
+    lowerSlider.oninput = function () {
+        lowerVal = parseInt(lowerSlider.value);
+        upperVal = parseInt(upperSlider.value);
+        if (lowerVal > upperVal - 4) {
+            upperSlider.value = lowerVal + 4;
+            if (upperVal == upperSlider.max) {
+                lowerSlider.value = parseInt(upperSlider.max) - 4;
+            }
         }
-    }
-    document.querySelector('#one').value = this.value
-};
+        document.querySelector('#one').value = this.value
+    };
+});
 // --------------------------Filter Price Range----------------------- 
 
 
@@ -192,5 +194,74 @@ for (i = 0; i < accordion3.length; i++) {
         this.classList.toggle('active2')
     });
 }
-// -----------------This is for Sub Category toggeling End-----------------------
 
+
+
+// -----------------This is for Age Verification Modal-----------
+document.addEventListener('DOMContentLoaded', function () {
+    const ageVerification = document.querySelector(".ageVerification");
+    const overlaytwo = document.querySelector(".overlay2");
+    const body = document.querySelector("body");
+    const ageVerificationButton = document.querySelector(".ageVerification .arrow-btn-container");
+
+    const ageVerifiedCookieName = "ageVerified";
+
+    // Check if the age verification cookie is set
+    if (!getCookie(ageVerifiedCookieName)) {
+        // Show the age verification modal if the cookie is not set
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                ageVerification.style.top = "50%";
+                overlaytwo.classList.add("open");
+                body.style.overflow = "hidden";
+            }, 500);
+        });
+    }
+
+    ageVerificationButton.addEventListener("click", () => {
+        // Set the age verification cookie when the button is clicked
+        setCookie(ageVerifiedCookieName, "true", 5); // Cookie expires in 5 days
+        overlaytwo.classList.remove("open");
+        body.style.overflow = "auto";
+        ageVerification.style.top = "-50%";
+    });
+});
+
+function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+    }
+    return null;
+}
+
+// this is fro toggelable tab in Single Product Page
+document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll(".tab-link");
+    const tabContents = document.querySelectorAll(".tab-content");
+  
+    tabs.forEach((tab, index) => {
+      tab.addEventListener("click", () => {
+        tabs.forEach(t => t.classList.remove("active"));
+        tabContents.forEach(content => content.classList.remove("active"));
+  
+        tab.classList.add("active");
+        tabContents[index].classList.add("active");
+      });
+    });
+  });
+  
+  
