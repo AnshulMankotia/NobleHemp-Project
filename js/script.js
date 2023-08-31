@@ -198,10 +198,10 @@ for (i = 0; i < accordion3.length; i++) {
 
 
 // -----------------This is for Age Verification Modal-----------
+const overlaytwo = document.querySelector(".overlay2");
+const body = document.querySelector("body");
 document.addEventListener('DOMContentLoaded', function () {
     const ageVerification = document.querySelector(".ageVerification");
-    const overlaytwo = document.querySelector(".overlay2");
-    const body = document.querySelector("body");
     const ageVerificationButton = document.querySelector(".ageVerification .arrow-btn-container");
 
     const ageVerifiedCookieName = "ageVerified";
@@ -252,16 +252,50 @@ function getCookie(name) {
 document.addEventListener("DOMContentLoaded", function () {
     const tabs = document.querySelectorAll(".tab-link");
     const tabContents = document.querySelectorAll(".tab-content");
-  
+
     tabs.forEach((tab, index) => {
-      tab.addEventListener("click", () => {
-        tabs.forEach(t => t.classList.remove("active"));
-        tabContents.forEach(content => content.classList.remove("active"));
-  
-        tab.classList.add("active");
-        tabContents[index].classList.add("active");
-      });
+        tab.addEventListener("click", () => {
+            tabs.forEach(t => t.classList.remove("active"));
+            tabContents.forEach(content => content.classList.remove("active"));
+
+            tab.classList.add("active");
+            tabContents[index].classList.add("active");
+        });
     });
-  });
-  
-  
+});
+
+
+//   this is for quick view modal
+function quickviewModal() {
+    const quickviewModal = document.getElementById("quickview_modal");
+    const eyeBtn = document.querySelectorAll(".eyeBtn");
+    const closeBtn = document.querySelector(".modal_close");
+
+    // adding eventlistner to eyeBtn to open Quick view Modal
+    eyeBtn.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            quickviewModal.classList.add("openModal");
+            overlaytwo.classList.add("open");
+            body.style.overflow = "hidden";
+        })
+    });
+
+    // Adding event listener to close the modal when ESC key is pressed
+    window.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && quickviewModal.classList.contains("openModal")) {
+            quickviewModal.classList.remove("openModal");
+            overlaytwo.classList.remove("open");
+            body.style.overflow = "auto";
+        }
+    });
+
+    // adding eventlistner to the close button to close the Modal
+    closeBtn.addEventListener("click", () => {
+        quickviewModal.classList.remove("openModal");
+        overlaytwo.classList.remove("open");
+        body.style.overflow = "auto";
+    });
+
+
+}
+quickviewModal();

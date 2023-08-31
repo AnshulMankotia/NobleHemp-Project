@@ -26,7 +26,7 @@
   --tag-clr: rgba(59, 99, 38, 0.2);
   --user_mail-clr: #d9d9d9;
   --clr-dark: #09040b;
-  --off-black-clr: #201C22;
+  --off-black-clr: #201c22;
   --border-clr: rgba(48, 81, 31, 0.2);
   --border-light: rgba(59, 99, 38, 0.3);
   --light-block: rgba(59, 99, 38, 0.1);
@@ -209,13 +209,13 @@ a {
 }
 .counter_number .minus::before {
   content: " ";
-    border: 1px solid var(--cart-count);
-    position: absolute;
-    right: 0;
-    top: 3px;
-    bottom: 0;
-    height: 80%;
-    z-index: 880;
+  border: 1px solid var(--cart-count);
+  position: absolute;
+  right: 0;
+  top: 3px;
+  bottom: 0;
+  height: 80%;
+  z-index: 880;
 }
 .counter_number .plus::after {
   content: " ";
@@ -264,6 +264,7 @@ a {
 
 /************** Reusable Components *******************/
 
+/* Age verification modal css */
 .ageVerification {
   position: absolute;
   top: -50%;
@@ -297,6 +298,82 @@ a {
   width: 10.3125rem;
   height: 3.75rem;
 }
+/* Age verification modal css */
+
+/* Quick view modal css */
+#quickview_modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-58%, -50%);
+  background-color: white;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10001;
+  transition: all .2s ease-in-out;
+}
+#quickview_modal.openModal {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%);
+}
+#quickview_modal .cart-page {
+  display: flex;
+}
+#quickview_modal .container {
+  margin-inline: auto;
+  padding:2rem 1rem 0rem 0rem;
+  min-height: inherit;
+}
+#quickview_modal .btn-container {
+  width: 17rem;
+}
+#quickview_modal .product-details {
+  position: relative;
+}
+#quickview_modal .product-details .modal_close {
+  position: absolute;
+  right: 4px;
+  top: -29px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 2.3rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #3d3b3b;
+  transition: color .3s ease-in-out;
+}
+#quickview_modal .product-details .modal_close:hover{
+  color: #6b6868;
+}
+#quickview_modal .tfc-view-product {
+  position: relative;
+  overflow: hidden;
+}
+#quickview_modal .tfc-view-product .view-dtl {
+  position: absolute;
+  left: 50%;
+  bottom:-15%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: bottom 0.3s ease-in-out;
+}
+#quickview_modal .tfc-view-product:hover .view-dtl{
+  bottom: -4%;
+}
+#quickview_modal .tfc-view-product .view-dtl a{
+  color: white;
+  background-color: var(--primary-clr);
+  width: 100%;
+  padding: 0.5rem 0;
+  display: inline-block;
+}
+#quickview_modal .cta-btn{
+  padding: 0.5rem;
+}
+/* Quick view modal css */
 
 main {
   background-color: #fafafa;
@@ -461,6 +538,9 @@ header .widget_Area {
   border-radius: 3.438rem;
   position: relative;
 }
+header .widget_Area span {
+  font-size: 0.75rem;
+}
 header .widget_Area .support {
   display: flex;
   align-items: center;
@@ -499,11 +579,11 @@ header .widget_Area .wishlist {
 }
 header .widget_Area .support:hover,
 header .widget_Area .wishlist:hover {
-  color: rgb(170, 170, 170);
+  color: rgb(243 224 224);
 }
 header .widget_Area .support:hover svg,
 header .widget_Area .wishlist:hover svg {
-  filter: contrast(0.5);
+  filter: contrast(0.8);
 }
 
 .mobile-icons {
@@ -792,6 +872,7 @@ header .widget_Area .wishlist:hover svg {
   z-index: 9998; /* Set z-index below offcanvas menu */
   opacity: 0;
   visibility: hidden;
+  cursor: url("/assets/overlay-close-icon.svg"), crosshair;
   transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s; /* Smooth transition effect */
 }
 .overlay2 {
@@ -1544,8 +1625,6 @@ header .widget_Area .wishlist:hover svg {
 }
 /* ------------------//Section-9 Css Ends----------- */
 
-
-
 /*------------------- Footer Css Starts --------------*/
 footer .delivery-services {
   padding: 0rem 0 0.5rem 0;
@@ -1599,7 +1678,7 @@ footer .social-links .main_logo {
   gap: 0.5rem;
 }
 footer .social-icons .icon img {
-  transition: transform 0.3s ease;
+  transition: transform 0.6s ease-in-out;
 }
 
 .social-icons .icon:hover img {
@@ -1966,6 +2045,7 @@ footer .copyright span {
 .blog-post-tfc .product-discount {
   position: sticky;
   top: 15rem;
+  margin-bottom: 5rem;
 }
 .main_blog .delta-image {
   width: 100%;
@@ -1998,12 +2078,15 @@ footer .copyright span {
   color: var(--green, #30511f);
   margin: 1.86rem 0;
 }
-.main_blog .tfc-btn-container {
+.main_blog .btn-container {
   border: 2px solid var(--primary-clr);
   margin-top: 0rem;
   padding: 1px;
   width: 9rem;
   border-radius: 6.25rem;
+}
+.main_blog .btn-container .cta-btn {
+  font-size: 0.95rem;
 }
 
 .main_blog .dtx-cta-btn {
@@ -2134,6 +2217,9 @@ footer .copyright span {
 .category-description-section {
   padding: 2rem 0 4rem 0;
 }
+.category-description-section .accordion2 {
+  max-width: initial;
+}
 .category-description-section .description h2,
 .description p {
   padding: 1rem 0;
@@ -2151,7 +2237,7 @@ footer .copyright span {
   margin-top: 3rem;
 }
 .more-details .question {
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -2281,12 +2367,11 @@ aside .filter-items .hrline.active2 h5::after {
   line-height: 1.5015rem;
 }
 
-.sub-categories .radio-category .radioCat {
+.sub-categories .radio-category .radioCat:not(:last-child) {
   border-bottom: 1px solid var(--border-clr);
-    width: 65%;
-    padding-bottom: 1rem;
+  width: 65%;
+  padding-bottom: 1rem;
 }
-
 
 .sub-categories input[type="radio"] {
   appearance: none;
@@ -2440,11 +2525,6 @@ aside .filter-items .hrline.active2 h5::after {
   border: none;
 }
 
-.author_profile .author-img img {
-  width: 235px;
-  height: 235px;
-}
-
 .author_profile .widgets-review-tfc img {
   width: 20px;
   height: 20px;
@@ -2506,16 +2586,24 @@ aside .filter-items .hrline.active2 h5::after {
 .author-id .author-about h2 {
   margin-bottom: 1rem;
 }
+.author_profile .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.author_profile .pagination {
+  margin: 10rem 0;
+}
 /****<!--------Blog-post-end------>****/
 /******* author-profile-page-css-end *********/
 
 /**************single blog page css start*****************/
 .product-image > h3 {
-  color: var(--green, #30511f);
-
+  color: var(--primary-clr);
   font-size: 1.75rem;
-  margin-bottom: 4rem;
-  font-weight: 400;
+  margin: 2rem 0 3rem 0;
+  font-weight: 500;
   line-height: 2.1875rem;
 }
 .product-discount > h3 {
@@ -2896,7 +2984,6 @@ audio::-webkit-media-controls-panel {
   gap: 1.7rem;
 }
 .author-img {
-  max-width: 200px;
   width: 100%;
   height: 200px;
   border: 1px solid var(--border-light);
@@ -2922,10 +3009,10 @@ audio::-webkit-media-controls-panel {
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
 }
-.author-id .author-about{
+.author-id .author-about {
   display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  flex-direction: column;
+  gap: 1rem;
 }
 .author-social-network .social-icons {
   display: flex;
@@ -2954,7 +3041,7 @@ audio::-webkit-media-controls-panel {
   margin-bottom: 6.25rem;
   display: grid;
   grid-template-columns: 1fr 3fr 3fr;
-  padding: 2rem;
+  padding: 5rem 2rem;
   align-items: center;
   gap: 0.5625rem;
 }
@@ -3005,11 +3092,13 @@ audio::-webkit-media-controls-panel {
 .single_blog .blog-post-tfc .product-discount {
   position: static;
 }
+
+.Subscribe_block form .btn-container span:nth-of-type(1) {
+  font-size: 1rem;
+}
 /****-- Subscribe-section-css-end --****/
 
 /**************single blog page css end****************/
-
-
 
 /* -------------single_product-page-css-start -------------*/
 .main_single-item {
@@ -3122,15 +3211,14 @@ audio::-webkit-media-controls-panel {
 }
 .single-product_Name h2 {
   font-size: 2.25rem;
-  font-family: Roboto-Medium-500;
   font-weight: 500;
   margin-bottom: 1.875rem;
 }
 .product-details h2 {
   font-size: 2.25rem;
-  font-family: Roboto-Medium-500;
   font-weight: 500;
   margin-bottom: 1.875rem;
+  line-height: 2.5rem;
 }
 .tfc-star-review {
   display: flex;
@@ -3144,7 +3232,7 @@ audio::-webkit-media-controls-panel {
 }
 .tfc-star-review p {
   font-size: 1rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
 }
 .tfc-overright-rate {
@@ -3169,7 +3257,7 @@ audio::-webkit-media-controls-panel {
 }
 .tfc-overright-rate p {
   font-size: 1rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   color: var(--primary-clr);
 }
@@ -3178,7 +3266,7 @@ audio::-webkit-media-controls-panel {
 }
 .thumbnail-section .product-details ul li {
   font-size: 1rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   color: var(--primary-clr);
   margin-bottom: 0.9375rem;
@@ -3229,7 +3317,7 @@ audio::-webkit-media-controls-panel {
 .thumbnail-section .product-details form label {
   color: var(--paragraph-clr);
   font-size: 1rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   padding-left: 0.8rem;
 }
@@ -3239,7 +3327,7 @@ audio::-webkit-media-controls-panel {
 .thumbnail-section .product-details .free-ship-info ul h3,
 .thumbnail-section .product-details .safe-checkout h3 {
   font-size: 0.875rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   color: var(--clr-dark);
   margin-bottom: 1.25rem;
@@ -3247,7 +3335,7 @@ audio::-webkit-media-controls-panel {
 
 .thumbnail-section .product-details .free-ship-info > ul > li {
   font-size: 0.875rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   color: var(--paragraph-clr);
   margin: 0 0 0 1.25rem;
@@ -3319,7 +3407,7 @@ audio::-webkit-media-controls-panel {
 }
 .tfc-fluid-container .tab-content p {
   font-size: 1.25rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   letter-spacing: 0.05rem;
   line-height: 2rem;
@@ -3332,7 +3420,7 @@ audio::-webkit-media-controls-panel {
 .tfc-fluid-container .tab-content h4 {
   color: var(--paragraph-clr);
   font-size: 1.25rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   margin-bottom: 3.125rem;
 }
@@ -3341,7 +3429,7 @@ audio::-webkit-media-controls-panel {
 }
 .tfc-fluid-container .tab-content ul li {
   font-size: 1.25rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   line-height: 1.6875rem;
   margin-bottom: 1.5rem;
@@ -3395,7 +3483,7 @@ audio::-webkit-media-controls-panel {
 }
 .percentage-review .full-fill-star p {
   font-size: 1rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
 }
 .star-progess-bar {
@@ -3423,13 +3511,13 @@ progress::-webkit-progress-value {
 }
 .multi-star_Review .count-progress-value {
   font-size: 1rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   color: var(--paragraph-clr);
 }
 .multi-star_Review .digit-value-dtx {
   font-size: 1rem;
-  font-family: Roboto-Regular-400;
+
   font-weight: 400;
   color: var(--paragraph-clr);
 }
@@ -3465,12 +3553,12 @@ progress::-webkit-progress-value {
   padding: 2.75rem 0;
 }
 
-.related-product .grid-row{
+.related-product .grid-row {
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   row-gap: 4rem;
 }
-.related-product h1{
+.related-product h1 {
   text-align: center;
   margin-bottom: 4rem;
 }

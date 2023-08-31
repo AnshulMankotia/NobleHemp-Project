@@ -2,26 +2,27 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pure Calm Leaf</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/queries.css" />
-  <link rel="stylesheet" href="css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="css/owl.theme.default.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/queries.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- -------Header----- -->
+  <!-- Header -->
   <?php
-  include("header.php")
+  include("header.php");
   ?>
-  <!-- -------Header----- -->
+ <!-- Header -->
 
+ <!-- Age verification modal -->
   <div class="ageVerification">
     <img src="/assets/verification-logo.svg" alt="">
       <h3>Age Verification</h3>
@@ -36,15 +37,90 @@
             </div>
   </div>
   <div class="overlay2"></div>
+<!-- Age verification modal -->
+
+<!-- Quick view modal -->
+<section id="quickview_modal" class="thumbnail-section">
+        <div class="container">
+              <div class="single-product_Name">
+                <h2> Delta 8 Tincture</h2>
+              </div>
+            <div class="cart-page">
+                <div class="tfc-view-product">
+                  <img src="assets/single-product-image.png" alt="">
+                  <div class="view-dtl">
+                    <a href="single_product.php">
+                      View Details
+                    </a>
+                  </div>
+                </div>
+                <div class="product-details">
+                  <h2>Natural Delta 8 Tincture</h2>
+                  <button title="Close (Esc)" type="button" class="modal_close">×</button>
+                  <div class="tfc-star-review">
+                       <div class="tfc-rating-view">
+                       <svg width="119" height="24" viewBox="0 0 119 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M89.7156 22.3125C89.5591 22.3131 89.4063 22.2643 89.2791 22.173L83.3008 17.8388L77.3224 22.173C77.1947 22.2657 77.0408 22.3153 76.883 22.3147C76.7253 22.3142 76.5718 22.2634 76.4447 22.1699C76.3177 22.0763 76.2237 21.9447 76.1763 21.7942C76.1289 21.6437 76.1307 21.4821 76.1812 21.3326L78.5129 14.4264L72.4699 10.2823C72.339 10.1927 72.2402 10.0635 72.188 9.9137C72.1357 9.76389 72.1327 9.6013 72.1795 9.44967C72.2262 9.29805 72.3202 9.16535 72.4477 9.07095C72.5753 8.97656 72.7296 8.92541 72.8883 8.92499H80.3434L82.5933 2.00115C82.6418 1.85166 82.7363 1.72137 82.8634 1.62897C82.9905 1.53656 83.1436 1.48679 83.3008 1.48679C83.4579 1.48679 83.611 1.53656 83.7381 1.62897C83.8652 1.72137 83.9598 1.85166 84.0083 2.00115L86.2581 8.92732H93.7133C93.8721 8.92724 94.0268 8.97803 94.1548 9.07224C94.2827 9.16646 94.377 9.29915 94.4241 9.45089C94.4711 9.60263 94.4683 9.76544 94.4161 9.91547C94.3639 10.0655 94.265 10.1949 94.134 10.2847L88.0887 14.4264L90.4189 21.3307C90.4567 21.4425 90.4673 21.5617 90.4499 21.6784C90.4325 21.7951 90.3876 21.906 90.3189 22.0019C90.2502 22.0978 90.1596 22.176 90.0548 22.23C89.9499 22.284 89.8336 22.3123 89.7156 22.3125Z" fill="#25A870"/>
+                  <g clip-path="url(#clip0_2840_6424)">
+                  <path d="M113.515 22.3125C113.359 22.3131 113.206 22.2643 113.079 22.173L107.101 17.8388L101.122 22.173C100.995 22.2657 100.841 22.3153 100.683 22.3147C100.525 22.3142 100.372 22.2634 100.245 22.1699C100.117 22.0763 100.023 21.9447 99.9761 21.7942C99.9287 21.6437 99.9305 21.4821 99.981 21.3326L102.313 14.4264L96.2697 10.2823C96.1388 10.1927 96.04 10.0635 95.9878 9.9137C95.9355 9.76389 95.9326 9.6013 95.9793 9.44967C96.026 9.29805 96.12 9.16535 96.2475 9.07095C96.3751 8.97656 96.5294 8.92541 96.6881 8.92499H104.143L106.393 2.00115C106.442 1.85166 106.536 1.72137 106.663 1.62897C106.79 1.53656 106.943 1.48679 107.101 1.48679C107.258 1.48679 107.411 1.53656 107.538 1.62897C107.665 1.72137 107.76 1.85166 107.808 2.00115L110.058 8.92732H117.513C117.672 8.92724 117.827 8.97803 117.955 9.07224C118.082 9.16646 118.177 9.29915 118.224 9.45089C118.271 9.60263 118.268 9.76544 118.216 9.91547C118.164 10.0655 118.065 10.1949 117.934 10.2847L111.888 14.4264L114.219 21.3307C114.256 21.4425 114.267 21.5617 114.25 21.6784C114.232 21.7951 114.187 21.906 114.119 22.0019C114.05 22.0978 113.959 22.176 113.855 22.23C113.75 22.284 113.633 22.3123 113.515 22.3125Z" fill="#25A870"/>
+                  </g>
+                  <path d="M65.9148 22.3125C65.7583 22.3131 65.6055 22.2643 65.4784 22.173L59.5 17.8388L53.5216 22.173C53.3939 22.2657 53.24 22.3153 53.0823 22.3147C52.9245 22.3142 52.771 22.2634 52.6439 22.1699C52.5169 22.0763 52.4229 21.9447 52.3755 21.7942C52.3282 21.6437 52.3299 21.4821 52.3805 21.3326L54.7121 14.4264L48.6691 10.2823C48.5382 10.1927 48.4395 10.0635 48.3872 9.9137C48.3349 9.76389 48.332 9.6013 48.3787 9.44967C48.4254 9.29805 48.5194 9.16535 48.6469 9.07095C48.7745 8.97656 48.9288 8.92541 49.0875 8.92499H56.5427L58.7925 2.00115C58.841 1.85166 58.9355 1.72137 59.0626 1.62897C59.1897 1.53656 59.3429 1.48679 59.5 1.48679C59.6571 1.48679 59.8102 1.53656 59.9374 1.62897C60.0645 1.72137 60.159 1.85166 60.2075 2.00115L62.4573 8.92732H69.9125C70.0714 8.92724 70.2261 8.97803 70.354 9.07224C70.4819 9.16646 70.5762 9.29915 70.6233 9.45089C70.6703 9.60263 70.6675 9.76544 70.6153 9.91547C70.5631 10.0655 70.4642 10.1949 70.3332 10.2847L64.2879 14.4264L66.6182 21.3307C66.6559 21.4425 66.6665 21.5617 66.6491 21.6784C66.6317 21.7951 66.5868 21.906 66.5181 22.0019C66.4494 22.0978 66.3589 22.176 66.254 22.23C66.1491 22.284 66.0328 22.3123 65.9148 22.3125Z" fill="#25A870"/>
+                  <path d="M42.115 22.3125C41.9585 22.3131 41.8057 22.2643 41.6785 22.173L35.7002 17.8388L29.7218 22.173C29.5941 22.2657 29.4402 22.3153 29.2825 22.3147C29.1247 22.3142 28.9712 22.2634 28.8441 22.1699C28.7171 22.0763 28.6231 21.9447 28.5757 21.7942C28.5283 21.6437 28.5301 21.4821 28.5806 21.3326L30.9123 14.4264L24.8693 10.2823C24.7384 10.1927 24.6396 10.0635 24.5874 9.9137C24.5351 9.76389 24.5322 9.6013 24.5789 9.44967C24.6256 9.29805 24.7196 9.16535 24.8471 9.07095C24.9747 8.97656 25.129 8.92541 25.2877 8.92499H32.7429L34.9927 2.00115C35.0412 1.85166 35.1357 1.72137 35.2628 1.62897C35.3899 1.53656 35.543 1.48679 35.7002 1.48679C35.8573 1.48679 36.0104 1.53656 36.1375 1.62897C36.2647 1.72137 36.3592 1.85166 36.4077 2.00115L38.6575 8.92732H46.1127C46.2716 8.92724 46.4263 8.97803 46.5542 9.07224C46.6821 9.16646 46.7764 9.29915 46.8235 9.45089C46.8705 9.60263 46.8677 9.76544 46.8155 9.91547C46.7633 10.0655 46.6644 10.1949 46.5334 10.2847L40.4881 14.4264L42.8183 21.3307C42.8561 21.4425 42.8667 21.5617 42.8493 21.6784C42.8319 21.7951 42.787 21.906 42.7183 22.0019C42.6496 22.0978 42.5591 22.176 42.4542 22.23C42.3493 22.284 42.233 22.3123 42.115 22.3125Z" fill="#25A870"/>
+                  <g clip-path="url(#clip1_2840_6424)">
+                  <path d="M18.3152 22.3125C18.1587 22.3131 18.0059 22.2643 17.8787 22.173L11.9004 17.8388L5.92203 22.173C5.79431 22.2657 5.64043 22.3153 5.48265 22.3147C5.32487 22.3142 5.17136 22.2634 5.04431 22.1699C4.91727 22.0763 4.82327 21.9447 4.77591 21.7942C4.72854 21.6437 4.73027 21.4821 4.78084 21.3326L7.1125 14.4264L1.06953 10.2823C0.938635 10.1927 0.839843 10.0635 0.787589 9.9137C0.735334 9.76389 0.732356 9.6013 0.779088 9.44967C0.825821 9.29805 0.919816 9.16535 1.04734 9.07095C1.17486 8.97656 1.32923 8.92541 1.48789 8.92499H8.94305L11.1929 2.00115C11.2414 1.85166 11.3359 1.72137 11.463 1.62897C11.5901 1.53656 11.7432 1.48679 11.9004 1.48679C12.0575 1.48679 12.2106 1.53656 12.3377 1.62897C12.4648 1.72137 12.5594 1.85166 12.6079 2.00115L14.8577 8.92732H22.3129C22.4717 8.92724 22.6265 8.97803 22.7544 9.07224C22.8823 9.16646 22.9766 9.29915 23.0237 9.45089C23.0707 9.60263 23.0679 9.76544 23.0157 9.91547C22.9635 10.0655 22.8646 10.1949 22.7336 10.2847L16.6883 14.4264L19.0185 21.3307C19.0563 21.4425 19.0669 21.5617 19.0495 21.6784C19.0321 21.7951 18.9872 21.906 18.9185 22.0019C18.8498 22.0978 18.7593 22.176 18.6544 22.23C18.5495 22.284 18.4332 22.3123 18.3152 22.3125Z" fill="#25A870"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_2840_6424">
+                  <rect width="23.8" height="23.8" fill="white" transform="translate(95.2002)"/>
+                  </clipPath>
+                  <clipPath id="clip1_2840_6424">
+                  <rect width="23.8" height="23.8" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                       </div>
+                       <p>60 reviews</p>
+                  </div>
+                  <div class="tfc-overright-rate">
+                    <h4>$299</h4>
+                    <h3>$199</h3>
+                    <p>- or subscribe & save 25%</p>
+                  </div>
+                  <ul>
+                    <li>High Potency Delta-8 Tincture</li>
+                    <li>Vegan Friendly</li>
+                    <li>High Quality & Non-GMO</li>
+                    <li>Third Party Lab Tested</li>
+                    <li>750MG of Delta-8 THC</li>
+                    <li>Made in the USA</li>
+                  </ul>
+                  
+                  <div class="add-cart-btn">
+                    <div class="counter_number">
+                      <span class="minus">-</span>
+                      <input class="counterInput" type="number" value="1" disabled="">
+                      <span class="plus">+</span>
+                    </div>
+                    <div class="btn-container">
+                    <a class="cta-btn">Add to cart</a>
+                  </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+<!-- Quick view modal -->
+
 
   <main>
-    <!-------------- Hero Section Starts------------- -->
+    <!-- Hero Section Starts -->
     <section class="section-1">
       <div class="container">
         <div class="hero-section">
           <p>While Stock Lasts</p>
           <h1>
-            Flat 30% off All <br />
+            Flat 30% off All <br>
             Products
           </h1>
 
@@ -55,9 +131,9 @@
         </div>
       </div>
     </section>
-    <!-------------- Hero Section Ends------------- -->
+     <!-- Hero Section Ends -->
 
-    <!--------------- Section-2 Starts --------------->
+    <!-- Section-2 Starts -->
     <section class="section-2">
       <div class="container">
         <h1>"Genuine Customer Feedback: Testimonials"</h1>
@@ -268,7 +344,7 @@
               d="M0.113251 3.50001L3 6.38677L5.88675 3.50001L3 0.613263L0.113251 3.50001ZM166 3L3 3.00001L3 4.00001L166 4L166 3Z"
               fill="#25A870" />
           </svg>
-          <img src="assets/main_logo1.svg" alt="" />
+          <img src="assets/main_logo1.svg" alt="">
           <svg width="166" height="6" viewBox="0 0 166 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M165.887 3L163 0.113249L160.113 3L163 5.88675L165.887 3ZM163 2.5L-4.37114e-08 2.50001L4.37114e-08 3.50001L163 3.5L163 2.5Z"
@@ -277,10 +353,10 @@
         </div>
       </div>
     </section>
-    <!--------------- Section-2 Ends --------------->
+     <!-- Section-2 Ends -->
 
 
-    <!----------------- Section-3 Starts----------------->
+     <!-- Section-3 Starts -->
     <section class="section-3">
       <div class="container">
         <div class="product-types">
@@ -316,7 +392,7 @@
           </div>
 
           <div class="btn-container">
-            <a href="" class="cta-btn">Browse All</a>
+            <a href="" class="cta-btn">Shope All</a>
           </div>
 
         </div>
@@ -326,7 +402,7 @@
               d="M0.113251 3.50001L3 6.38677L5.88675 3.50001L3 0.613263L0.113251 3.50001ZM166 3L3 3.00001L3 4.00001L166 4L166 3Z"
               fill="#25A870" />
           </svg>
-          <img src="assets/main_logo1.svg" alt="" />
+          <img src="assets/main_logo1.svg" alt="">
           <svg width="166" height="6" viewBox="0 0 166 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M165.887 3L163 0.113249L160.113 3L163 5.88675L165.887 3ZM163 2.5L-4.37114e-08 2.50001L4.37114e-08 3.50001L163 3.5L163 2.5Z"
@@ -335,9 +411,9 @@
         </div>
       </div>
     </section>
-    <!----------------- Section-3 Ends------------------->
+    <!-- Section-3 Ends -->
 
-    <!----------------- Section-4 Starts---------------- -->
+    <!-- Section-4 Starts -->
     <section class="section-4">
       <div class="container">
         <div class="guarantee">
@@ -345,7 +421,7 @@
             <h1>Worry Free Guarantee</h1>
             <p>
               Tired it? Don't like it? Don't worry. Send it back, and we'll
-              give you store credit for <br />
+              give you store credit for <br>
               something new. Terms & condition apply.
             </p>
           </div>
@@ -359,7 +435,7 @@
               </svg>
               <span>15-Days Guarantee</span>
               <p>
-                Tried it? Don't like it? Don't worry. <br />
+                Tried it? Don't like it? Don't worry. <br>
                 Send it back.
               </p>
             </div>
@@ -371,7 +447,7 @@
               </svg>
               <span>DEA Certified Lab Testing</span>
               <p>
-                Tried it? Don't like it? Don't worry. <br />
+                Tried it? Don't like it? Don't worry. <br>
                 Send it back.
               </p>
             </div>
@@ -384,7 +460,7 @@
               </svg>
               <span>Free Shipping</span>
               <p>
-                Tried it? Don't like it? Don't worry. <br />
+                Tried it? Don't like it? Don't worry. <br>
                 Send it back.
               </p>
             </div>
@@ -396,7 +472,7 @@
               d="M0.113251 3.50001L3 6.38677L5.88675 3.50001L3 0.613263L0.113251 3.50001ZM166 3L3 3.00001L3 4.00001L166 4L166 3Z"
               fill="#25A870" />
           </svg>
-          <img src="assets/main_logo1.svg" alt="" />
+          <img src="assets/main_logo1.svg" alt="">
           <svg width="166" height="6" viewBox="0 0 166 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M165.887 3L163 0.113249L160.113 3L163 5.88675L165.887 3ZM163 2.5L-4.37114e-08 2.50001L4.37114e-08 3.50001L163 3.5L163 2.5Z"
@@ -405,9 +481,9 @@
         </div>
       </div>
     </section>
-    <!----------------- Section-4 Ends---------------- -->
+    <!-- Section-4 Ends -->
 
-    <!----------------- Section-5 Starts---------------- -->
+    <!-- Section-5 Starts -->
     <section class="section-5">
       <div class="container">
         <div class="best-sellProducts">
@@ -433,7 +509,7 @@
                         stroke="#25A870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                   </div>
-                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt="" /></a> 
+                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt=""></a> 
                 </div>
                 <div class="product-info">
                   <h2>CBD Oil Drops 600mg - 30ml</h2>
@@ -488,7 +564,7 @@
                         stroke="#25A870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                   </div>
-                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt="" /></a> 
+                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt=""></a> 
                 </div>
                 <div class="product-info">
                   <h2>CBD Oil Drops 600mg - 30ml</h2>
@@ -543,7 +619,7 @@
                         stroke="#25A870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                   </div>
-                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt="" /></a> 
+                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt=""></a> 
                 </div>
                 <div class="product-info">
                   <h2>CBD Oil Drops 600mg - 30ml</h2>
@@ -598,7 +674,7 @@
                         stroke="#25A870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                   </div>
-                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt="" /></a> 
+                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt=""></a> 
                 </div>
                 <div class="product-info">
                   <h2>CBD Oil Drops 600mg - 30ml</h2>
@@ -653,7 +729,7 @@
                         stroke="#25A870" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                   </div>
-                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt="" /></a> 
+                 <a href="single_product.php"><img class="productImage" src="/assets/drops_img.png" alt=""></a> 
                 </div>
                 <div class="product-info">
                   <h2>CBD Oil Drops 600mg - 30ml</h2>
@@ -698,7 +774,7 @@
               d="M0.113251 3.50001L3 6.38677L5.88675 3.50001L3 0.613263L0.113251 3.50001ZM166 3L3 3.00001L3 4.00001L166 4L166 3Z"
               fill="#25A870" />
           </svg>
-          <img src="assets/main_logo1.svg" alt="" />
+          <img src="assets/main_logo1.svg" alt="">
           <svg width="166" height="6" viewBox="0 0 166 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M165.887 3L163 0.113249L160.113 3L163 5.88675L165.887 3ZM163 2.5L-4.37114e-08 2.50001L4.37114e-08 3.50001L163 3.5L163 2.5Z"
@@ -707,9 +783,9 @@
         </div>
       </div>
     </section>
-    <!----------------- Section-5 Ends---------------- -->
+    <!-- Section-5 Ends -->
 
-    <!----------------- Section-6 Starts---------------- -->
+    <!-- Section-6 Starts -->
     <section class="section-6">
       <div class="container">
         <div class="CBD-uses">
@@ -728,17 +804,17 @@
                 these premium CBD gummies.
               </p>
               <div class="btn-container">
-                <a href="" class="cta-btn">Shop CBD</a>
+                <a href="category.php" class="cta-btn">Shop CBD</a>
               </div>
             </div>
             <div class="r-side">
-              <img src="/assets/relax_Img.png" alt="" />
+              <img src="/assets/relax_Img.png" alt="">
             </div>
           </div>
 
           <div class="use">
             <div class="r-side">
-              <img src="/assets/sleep_img.png" alt="" />
+              <img src="/assets/sleep_img.png" alt="">
             </div>
             <div class="l-side">
               <svg width="83" height="83" viewBox="0 0 83 83" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -756,7 +832,7 @@
                 these premium CBD gummies.
               </p>
               <div class="btn-container">
-                <a href="" class="cta-btn">Shop CBD</a>
+                <a href="category.php" class="cta-btn">Shop CBD</a>
               </div>
             </div>
           </div>
@@ -775,11 +851,11 @@
                 these premium CBD gummies.
               </p>
               <div class="btn-container">
-                <a href="" class="cta-btn">Shop CBD</a>
+                <a href="category.php" class="cta-btn">Shop CBD</a>
               </div>
             </div>
             <div class="r-side">
-              <img src="/assets/recovery_Img.png" alt="" />
+              <img src="/assets/recovery_Img.png" alt="">
             </div>
           </div>
         </div>
@@ -789,7 +865,7 @@
               d="M0.113251 3.50001L3 6.38677L5.88675 3.50001L3 0.613263L0.113251 3.50001ZM166 3L3 3.00001L3 4.00001L166 4L166 3Z"
               fill="#25A870" />
           </svg>
-          <img src="assets/main_logo1.svg" alt="" />
+          <img src="assets/main_logo1.svg" alt="">
           <svg width="166" height="6" viewBox="0 0 166 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M165.887 3L163 0.113249L160.113 3L163 5.88675L165.887 3ZM163 2.5L-4.37114e-08 2.50001L4.37114e-08 3.50001L163 3.5L163 2.5Z"
@@ -798,9 +874,9 @@
         </div>
       </div>
     </section>
-    <!----------------- //Section-6 Ends---------------- -->
+    <!-- Section-6 Ends -->
 
-    <!----------------- Section-7 Starts---------------- -->
+    <!-- Section-7 Starts -->
     <section class="section-7">
       <div class="container">
         <div class="faq">
@@ -928,7 +1004,7 @@
               d="M0.113251 3.50001L3 6.38677L5.88675 3.50001L3 0.613263L0.113251 3.50001ZM166 3L3 3.00001L3 4.00001L166 4L166 3Z"
               fill="#25A870" />
           </svg>
-          <img src="assets/main_logo1.svg" alt="" />
+          <img src="assets/main_logo1.svg" alt="">
           <svg width="166" height="6" viewBox="0 0 166 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M165.887 3L163 0.113249L160.113 3L163 5.88675L165.887 3ZM163 2.5L-4.37114e-08 2.50001L4.37114e-08 3.50001L163 3.5L163 2.5Z"
@@ -937,68 +1013,75 @@
         </div>
       </div>
     </section>
-    <!----------------- //Section-7 Ends---------------- -->
+    <!-- Section-7 Ends -->
 
-    <!----------------- //Section-8 Starts---------------- -->
+    <!-- Section-8 Starts -->
     <section class="section-8">
       <div class="container">
         <h1>In the Blogosphere</h1>
         <div class="blog-section-home">
-          <div class="tfc-blog-post">
+        <div class="tfc-blog-post">
+            <a href="singleblog.php">
             <div class="blog-image-box">
-              <img src="assets/bgl1.jpeg" class="fixed-image tfc-zoom-effect" alt="" />
+              <img src="assets/bgl1.jpeg" class="fixed-image tfc-zoom-effect" alt="">
             </div>
-            <h4>
+            </a>
+            <a href="singleblog.php"><h4>
               "The Beginner's Guide to CBD: Understanding Its Benefits and
               Uses"
-            </h4>
+            </h4></a>
 
             <div class="arrow-btn-container">
-              <a href="singleblog.html" class="cta-btnArrow">
+              <a href="singleblog.php" class="cta-btnArrow">
                 Full Read
                 <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path id="rightArrow" d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
+                  <path d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
               </a>
             </div>
 
           </div>
           <div class="tfc-blog-post">
+            <a href="singleblog.php">
             <div class="blog-image-box">
-              <img src="assets/bgl1.jpeg" class="fixed-image tfc-zoom-effect" alt="" />
+              <img src="assets/bgl1.jpeg" class="fixed-image tfc-zoom-effect" alt="">
             </div>
-            <h4>
+            </a>
+            <a href="singleblog.php"><h4>
               "The Beginner's Guide to CBD: Understanding Its Benefits and
               Uses"
-            </h4>
+            </h4></a>
+
             <div class="arrow-btn-container">
-              <a href="singleblog.html" class="cta-btnArrow">
+              <a href="singleblog.php" class="cta-btnArrow">
                 Full Read
                 <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
+                  <path d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
               </a>
             </div>
+
           </div>
           <div class="tfc-blog-post">
+            <a href="singleblog.php">
             <div class="blog-image-box">
-              <img src="assets/bgl1.jpeg" class="fixed-image tfc-zoom-effect" alt="" />
+              <img src="assets/bgl1.jpeg" class="fixed-image tfc-zoom-effect" alt="">
             </div>
-            <h4>
+            </a>
+            <a href="singleblog.php"><h4>
               "The Beginner's Guide to CBD: Understanding Its Benefits and
               Uses"
-            </h4>
+            </h4></a>
+
             <div class="arrow-btn-container">
-              <a href="singleblog.html" class="cta-btnArrow">
+              <a href="singleblog.php" class="cta-btnArrow">
                 Full Read
                 <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
+                  <path d="M1 9L5 5L1 1" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
               </a>
             </div>
+
           </div>
         </div>
         <div class="leaf-seperator">
@@ -1007,7 +1090,7 @@
               d="M0.113251 3.50001L3 6.38677L5.88675 3.50001L3 0.613263L0.113251 3.50001ZM166 3L3 3.00001L3 4.00001L166 4L166 3Z"
               fill="#25A870" />
           </svg>
-          <img src="assets/main_logo1.svg" alt="" />
+          <img src="assets/main_logo1.svg" alt="">
           <svg width="166" height="6" viewBox="0 0 166 6" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M165.887 3L163 0.113249L160.113 3L163 5.88675L165.887 3ZM163 2.5L-4.37114e-08 2.50001L4.37114e-08 3.50001L163 3.5L163 2.5Z"
@@ -1017,9 +1100,9 @@
       </div>
     </section>
 
-    <!----------------- //Section-8 Ends---------------- -->
+    <!-- Section-8 Ends -->
 
-    <!----------------- //Section-9 Starts---------------- -->
+    <!-- Section-9 Starts -->
     <section class="section-9">
       <div class="container">
         <div class="wrapper">
@@ -1027,7 +1110,7 @@
             <div class="sign-up">
               <h2>Sign Up For Our Weekly Newsletter and Discount Offers</h2>
               <form class="input-field">
-                <input type="text" name="email" placeholder="Your Email Here" />
+                <input type="text" name="email" placeholder="Your Email Here">
                 <div class="btn-container">
                   <button type="submit" class="cta-btn">Send</button>
                 </div>
@@ -1037,14 +1120,14 @@
         </div>
       </div>
     </section>
-    <!----------------- //Section-9 Ends---------------- -->
+    <!-- Section-9 Ends -->
   </main>
 
-  <!----------- Footer------------- -->
+  <!-- Footer -->
   <?php
   include("footer.php");
   ?>
-  <!-- ----------Footer --------------->
+  <!-- Footer -->
 
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"
     integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
