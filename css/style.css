@@ -3209,6 +3209,9 @@ audio::-webkit-media-controls-panel {
 .single-product_Name {
   display: none !important;
 }
+.main_single-item .tfc-view-product h2{
+display: none;
+}
 .single-product_Name h2 {
   font-size: 2.25rem;
   font-weight: 500;
@@ -3339,6 +3342,7 @@ audio::-webkit-media-controls-panel {
   font-weight: 400;
   color: var(--paragraph-clr);
   margin: 0 0 0 1.25rem;
+
 }
 /*-- product-details-css-end --*/
 
